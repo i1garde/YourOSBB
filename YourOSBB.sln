@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Web", "YourOSBB.Web\YourOSBB.Web.csproj", "{A94B23D7-1C2A-4C16-9483-B5DEA440FDEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94B23D7-1C2A-4C16-9483-B5DEA440FDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94B23D7-1C2A-4C16-9483-B5DEA440FDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94B23D7-1C2A-4C16-9483-B5DEA440FDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94B23D7-1C2A-4C16-9483-B5DEA440FDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
