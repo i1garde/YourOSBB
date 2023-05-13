@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using YourOSBB.Web.Models.Entities;
 
 namespace YourOSBB.Web.Areas.Identity.Data;
 
@@ -13,5 +14,6 @@ public class ApplicationUser : IdentityUser
     public string Name { get; set; }
     public string PatronymicName { get; set; }
     public string Role { get; set; }
+    public Osbb? Osbb { get; set; }
 }
 

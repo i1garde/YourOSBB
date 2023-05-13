@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using YourOSBB.Web.Areas.Identity.Data;
+using YourOSBB.Web.Models.Entities;
 
 public class Program
 {

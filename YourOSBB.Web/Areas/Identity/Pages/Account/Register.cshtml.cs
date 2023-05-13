@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using YourOSBB.Web.Areas.Identity.Data;
+using YourOSBB.Web.Models.Entities;
 
 namespace YourOSBB.Web.Areas.Identity.Pages.Account
 {
@@ -136,12 +137,21 @@ namespace YourOSBB.Web.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = CreateUser();
+                var role = Input.Role;
+                var user = CreateUser(role);
 
                 user.Surname = Input.Surname;
                 user.Name = Input.Name;
                 user.PatronymicName = Input.PatronymicName;
-                user.Role = Input.Role;
+                switch(role)
+                {
+                    case "Голова ОСББ":
+                        user.Role = MyRoles[0];
+                        break;
+                    case "Мешканець":
+                        user.Role = MyRoles[1];
+                        break;
+                }
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
@@ -192,7 +202,7 @@ namespace YourOSBB.Web.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private ApplicationUser CreateUser()
+        private ApplicationUser CreateUser(string role)
         {
             try
             {
