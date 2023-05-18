@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Services", "YourOS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Infrastructure", "YourOSBB.Infrastructure\YourOSBB.Infrastructure.csproj", "{2DD546B1-82E4-4D3E-BA93-676317CF5963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Entities", "YourOSBB.Entities\YourOSBB.Entities.csproj", "{58EDFB43-3377-4E5D-99AA-35466E35ED82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2DD546B1-82E4-4D3E-BA93-676317CF5963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD546B1-82E4-4D3E-BA93-676317CF5963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD546B1-82E4-4D3E-BA93-676317CF5963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
