@@ -1,0 +1,38 @@
+﻿@model YourOSBB.Web.Models.Entities.OsbbViewModel
+
+@{
+    Layout = "_OsbbHeadLayout";
+}
+
+<form method="post" asp-action="CreateOsbb" asp-controller="OsbbHead">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Створити ОСББ</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name">Назва</label>
+            <input asp-for="Name" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Region">Область</label>
+            <input asp-for="Region" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="City">Місто</label>
+            <input asp-for="City" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Street">Вулиця</label>
+            <input asp-for="Street" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="HouseNumber">Номер будинку</label>
+            <input asp-for="HouseNumber" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Створити</button>
+        <a asp-controller="OsbbHead" asp-action="OsbbHead" class="btn btn-secondary">
+            На головну
+        </a>
+    </div>
+</form>

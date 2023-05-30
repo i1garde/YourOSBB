@@ -18,8 +18,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using YourOSBB.Web.Areas.Identity.Data;
-using YourOSBB.Web.Models.Entities;
+//using YourOSBB.Web.Areas.Identity.Data;
+using YourOSBB.Entities;
 
 namespace YourOSBB.Web.Areas.Identity.Pages.Account
 {
@@ -189,6 +189,14 @@ namespace YourOSBB.Web.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
+                        if (user.Role == "Голова ОСББ")
+                        {
+                            return LocalRedirect(Url.Content("~/OsbbHead/OsbbHead/"));
+                        }
+                        if (user.Role == "Мешканець")
+                        {
+                            return LocalRedirect(Url.Content("~/Resident/Resident/"));
+                        }
                         return LocalRedirect(returnUrl);
                     }
                 }

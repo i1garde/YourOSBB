@@ -1,0 +1,16 @@
+﻿@model YourOSBB.Web.Models.Entities.OsbbViewModel
+
+@{
+    Layout = "_ResidentLayout";
+}
+
+<div>
+    Ви на сторінці ОСББ
+</div>
+<div>
+    Назва ОСББ: @Model.Name<br/>
+    Область: @Model.Region<br/>
+    Місто: @Model.City<br/>
+    Вулиця: @Model.Street<br/>
+    Номер будинку: @Model.HouseNumber<br/>
+</div>

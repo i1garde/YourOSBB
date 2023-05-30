@@ -282,3 +282,11 @@ C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\runtimes\win
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\obj\Debug\net7.0\YourOSBB.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\obj\Debug\net7.0\YourOSBB.Web.csproj.CopyComplete
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Entities.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Infrastructure.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Services.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Entities.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Services.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\YourOSBB.Infrastructure.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

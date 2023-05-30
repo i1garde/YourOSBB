@@ -1,0 +1,31 @@
+﻿@model YourOSBB.Web.Models.Entities.OsbbViewModel
+
+@{
+    Layout = "_OsbbHeadLayout";
+}
+
+<div>
+    Ви на сторінці ОСББ
+</div>
+<div>
+    Назва ОСББ: @Model.Name<br/>
+    Область: @Model.Region<br/>
+    Місто: @Model.City<br/>
+    Вулиця: @Model.Street<br/>
+    Номер будинку: @Model.HouseNumber<br/>
+</div>
+@* <div>
+    <h3>Жителі будинку:</h3>
+    @foreach (var obj in Model.Residents)
+    {
+        <tr>
+            <td>
+                @obj.Surname
+            </td>
+            <td>
+                @obj.Name
+            </td>
+        </tr>
+        <br/>
+    }
+</div> *@

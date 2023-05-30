@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oTdzfKYH/bOoV1bp5P8VbIlRVVIV2nnpMhZAvt6HRjTl9CahoVPRX5Uim/V0GyesjsGcsYF+Lspsite3Cj0msw==",
+  "dgSpecHash": "JdlV/5TvMVPUZJjg8QP3LGdNkcLHbgGwGNrl69ztuDUVDWLfQCEWM/9t/V7jchJgbdz7dyFEkq5PiiOYQNJ1Gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vanya\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\vanya\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

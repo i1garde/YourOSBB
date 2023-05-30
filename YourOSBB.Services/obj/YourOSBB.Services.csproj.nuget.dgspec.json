@@ -4,6 +4,146 @@
     "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {}
   },
   "projects": {
+    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+        "projectName": "YourOSBB.Entities",
+        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
+        "projectName": "YourOSBB.Infrastructure",
+        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +165,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

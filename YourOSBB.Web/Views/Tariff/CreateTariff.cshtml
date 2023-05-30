@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model YourOSBB.Web.Models.Entities.TariffAndUserIdViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_ResidentLayout";
+}
+
+<form method="post" asp-action="CreateTariff" asp-controller="Tariff">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Додати витрату</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Tariff.Name">Назва тарифу</label>
+            <input asp-for="Tariff.Name" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Tariff.Description">Опис</label>
+            <input asp-for="Tariff.Description" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Tariff.Cost">Ціна</label>
+            <input asp-for="Tariff.Cost" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <select asp-for="UserId" asp-items="@ViewBag.UsersList"></select>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Створити</button>
+        <a asp-controller="Tariff" asp-action="ShowTariffsToResidents" class="btn btn-secondary">
+            До витрат
+        </a>
+    </div>
+</form>

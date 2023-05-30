@@ -1,0 +1,28 @@
+﻿@model List<YourOSBB.Web.Models.Entities.ComplaintViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_OsbbHeadLayout";
+}
+
+<div>
+    <h3>Скарги від жителів ОСББ:</h3>
+    @foreach (var obj in Model)
+    {
+        <tr>
+            <td>
+                @obj.Name
+            </td>
+            <br/>
+            <td>
+                @obj.Text
+            </td>
+            <br/>
+            <td>
+                @obj.Date
+            </td>
+            <br/>
+        </tr>
+        <br/>
+    }
+</div>

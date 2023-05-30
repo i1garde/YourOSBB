@@ -1,0 +1,33 @@
+﻿@model List<YourOSBB.Web.Models.Entities.ProposalViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_ResidentLayout";
+}
+
+<div>
+    <a asp-controller="Proposal" asp-action="CreateProposal" class="btn btn-secondary">
+        Створити пропозицію
+    </a>
+</div>
+<div>
+    <h3>Пропозиції від жителів ОСББ:</h3>
+    @foreach (var obj in Model)
+    {
+        <tr>
+            <td>
+                @obj.Name
+            </td>
+            <br/>
+            <td>
+                @obj.Text
+            </td>
+            <br/>
+            <td>
+                @obj.Date
+            </td>
+            <br/>
+        </tr>
+        <br/>
+    }
+</div>

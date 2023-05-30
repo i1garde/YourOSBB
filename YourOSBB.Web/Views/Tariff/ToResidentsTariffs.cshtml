@@ -1,0 +1,28 @@
+﻿@model List<YourOSBB.Web.Models.Entities.TariffViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_ResidentLayout";
+}
+
+<div>
+    <h3>Витрати на обслуговування ОСББ:</h3>
+    @foreach (var obj in Model)
+    {
+        <tr>
+            <td>
+                @obj.Name
+            </td>
+            <br/>
+            <td>
+                @obj.Description
+            </td>
+            <br/>
+            <td>
+                @obj.Cost
+            </td>
+            <br/>
+        </tr>
+        <br/>
+    }
+</div>

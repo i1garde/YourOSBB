@@ -13,8 +13,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using YourOSBB.Web.Areas.Identity.Data;
+using YourOSBB.Entities;
 
 namespace YourOSBB.Web.Areas.Identity.Pages.Account
 {
@@ -22,11 +23,14 @@ namespace YourOSBB.Web.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public LoginModel(SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger, 
+            UserManager<ApplicationUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager;
         }
 
         /// <summary>
@@ -116,6 +120,16 @@ namespace YourOSBB.Web.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    // Logic for role redirection
+                    var userRole = await _userManager.FindByEmailAsync(Input.Email);
+                    if (userRole.Role == "Голова ОСББ")
+                    {
+                        return LocalRedirect(Url.Content("~/OsbbHead/OsbbHead/"));
+                    }
+                    if (userRole.Role == "Мешканець")
+                    {
+                        return LocalRedirect(Url.Content("~/Resident/Resident/"));
+                    }
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

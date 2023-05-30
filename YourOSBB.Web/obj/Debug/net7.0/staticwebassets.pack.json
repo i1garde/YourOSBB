@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\YourOSBB.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\wwwroot\\css\\HeadOsbb\\_OsbbHeadLayout.css",
+      "PackagePath": "staticwebassets\\css\\HeadOsbb\\_OsbbHeadLayout.css"
+    },
+    {
+      "Id": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\wwwroot\\css\\Register\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\wwwroot\\css\\Resident\\_ResidentLayout.css",
+      "PackagePath": "staticwebassets\\css\\Resident\\_ResidentLayout.css"
+    },
+    {
       "Id": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

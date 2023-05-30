@@ -14,6 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
@@ -22,6 +24,21 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\HeadOsbb\_OsbbHeadLayout.css" />
+      <None Include="wwwroot\css\Register\Register.css" />
+      <None Include="wwwroot\css\Resident\_ResidentLayout.css" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\YourOSBB.Entities\YourOSBB.Entities.csproj" />
+      <ProjectReference Include="..\YourOSBB.Services\YourOSBB.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\Identity\Data\" />
     </ItemGroup>
 
 </Project>
