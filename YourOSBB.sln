@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Entities", "YourOSBB.Entities\YourOSBB.Entities.csproj", "{58EDFB43-3377-4E5D-99AA-35466E35ED82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.Tests", "YourOSBB.Tests\YourOSBB.Tests.csproj", "{941FA930-8D99-4F0A-9C82-3CF3AF23EBA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOSBB.NUnitTests", "YourOSBB.NUnitTests\YourOSBB.NUnitTests.csproj", "{9BB4858D-0109-4413-A222-7496E38F2874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +32,9 @@ Global
 		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EDFB43-3377-4E5D-99AA-35466E35ED82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{941FA930-8D99-4F0A-9C82-3CF3AF23EBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{941FA930-8D99-4F0A-9C82-3CF3AF23EBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{941FA930-8D99-4F0A-9C82-3CF3AF23EBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{941FA930-8D99-4F0A-9C82-3CF3AF23EBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB4858D-0109-4413-A222-7496E38F2874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB4858D-0109-4413-A222-7496E38F2874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB4858D-0109-4413-A222-7496E38F2874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB4858D-0109-4413-A222-7496E38F2874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
