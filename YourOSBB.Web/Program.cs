@@ -24,6 +24,7 @@ public class Program
         builder.Services.AddScoped<IProposalService, ProposalService>();
         builder.Services.AddScoped<IComplaintService, ComplaintService>();
         builder.Services.AddScoped<ITariffService, TariffService>();
+        builder.Services.AddScoped<IVotingService, VotingService>();
         builder.Services.AddScoped<RoleManager<ApplicationRole>>();
 
         builder.Services

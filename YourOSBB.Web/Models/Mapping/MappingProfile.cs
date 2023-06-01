@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using YourOSBB.Entities;
+using YourOSBB.Entities.VotingEntities;
 using YourOSBB.Web.Models.Entities;
+using YourOSBB.Web.Models.Entities.VotingViewModels;
 
 namespace YourOSBB.Web.Models.Mapping;
 
@@ -20,5 +22,13 @@ public class MappingProfile : Profile
         this.CreateMap<ComplaintViewModel, Complaint>();
         this.CreateMap<Tariff, TariffViewModel>();
         this.CreateMap<TariffViewModel, Tariff>();
+        this.CreateMap<Poll, PollViewModel>();
+        this.CreateMap<PollViewModel, Poll>();
+        this.CreateMap<PollCandidate, PollCandidateViewModel>();
+        this.CreateMap<PollCandidateViewModel, PollCandidate>();
+        this.CreateMap<UserVote, UserVoteViewModel>();
+        this.CreateMap<UserVoteViewModel, UserVote>();
+        this.CreateMap<CompletedPoll, CompletedPollViewModel>();
+        this.CreateMap<CompletedPollViewModel, CompletedPoll>();
     }
 }

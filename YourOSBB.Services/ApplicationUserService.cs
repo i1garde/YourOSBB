@@ -46,4 +46,9 @@ public class ApplicationUserService : IApplicationUserService
     {
         return _unitOfWork.ApplicationUserManager;
     }
+    
+    public Task<IEnumerable<ApplicationUser>> GetAllResidentsInOsbb(int osbbId)
+    {
+        return _unitOfWork.ApplicationUserRepository.GetAllResidentsInOsbb(osbbId);
+    }
 }

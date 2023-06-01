@@ -26,6 +26,11 @@ public class HomeController : Controller
         if (_signInManager.IsSignedIn(User)) //verify if it's logged
         {
             var usr = await _userManager.GetUserAsync(HttpContext.User);
+            if (usr == null)
+            {
+                await _signInManager.SignOutAsync();
+                return RedirectToAction("Index");
+            }
             var userRole = await _userManager.FindByEmailAsync(usr.Email);
             if (userRole.Role == "Голова ОСББ")
             {

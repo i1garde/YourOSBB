@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Text;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -51,6 +52,7 @@ public class OsbbHeadController : Controller
         }
 
         var osbb = await _osbbService.GetById(userOsbb.OsbbId.Value);
+        
         return View(_mapper.Map<Osbb, OsbbViewModel>(osbb));
     }
     

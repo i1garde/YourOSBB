@@ -176,6 +176,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvUmVzaWRlbnRzVGFyaWZmcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/CreatePoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXENyZWF0ZVBvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadNoPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZE5vUG9sbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZFBvbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadSelectedPoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZFNlbGVjdGVkUG9sbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentSelectedPoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRTZWxlY3RlZFBvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentsNoPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRzTm9Qb2xscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentsPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRzUG9sbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

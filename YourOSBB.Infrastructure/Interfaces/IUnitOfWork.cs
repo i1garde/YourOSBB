@@ -11,7 +11,11 @@ public interface IUnitOfWork : IAsyncDisposable
     IProposalRepository ProposalRepository { get; }
     IComplaintRepository ComplaintRepository { get; }
     ITariffRepository TariffRepository { get; }
+    IPollRepository PollRepository { get; }
+    IPollCandidateRepository PollCandidateRepository { get; }
+    IUserVoteRepository UserVoteRepository { get; }
+    ICompletedPollRepository CompletedPollRepository { get; }
     UserManager<ApplicationUser> ApplicationUserManager { get; }
- 
+
     Task DoAsync();
 }

@@ -11,4 +11,5 @@ public interface IApplicationUserService
     Task<ApplicationUser> GetById(int id);
     Task<IEnumerable<ApplicationUser>> GetAll();
     UserManager<ApplicationUser> GetUserManager();
+    public Task<IEnumerable<ApplicationUser>> GetAllResidentsInOsbb(int osbbId);
 }

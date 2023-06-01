@@ -6,4 +6,6 @@ namespace YourOSBB.Infrastructure.Interfaces;
 public interface IApplicationUserRepository : IRepository<ApplicationUser>
 {
     public Task Update(ApplicationUser entity);
+
+    public Task<IEnumerable<ApplicationUser>> GetAllResidentsInOsbb(int osbbId);
 }

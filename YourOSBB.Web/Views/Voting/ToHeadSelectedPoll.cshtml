@@ -1,0 +1,33 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_OsbbHeadLayout";
+}
+
+<form asp-controller="Voting" asp-action="HeadVoteForCandidate" method="post">
+    <div>
+        <h3>Проголосувати</h3>
+        <tr>
+            <td>
+                Назва голосування: @ViewBag.PollName
+            </td>
+            <br/>
+            <td>
+                Опис: @ViewBag.PollDescription
+            </td>
+            <br/>
+            <td>
+                Кандидати:
+            </td>
+            <br/>
+            @foreach (var v in @ViewBag.PollCandidatesIdName)
+            {
+                <div>@v.Item2 - <input type="radio" name="pollCandidateId" value="@v.Item1" /></div>
+                <br/>
+            }
+            <button type="submit" class="btn btn-primary mb-3">Проголосувати</button>
+        </tr>
+        <br/>
+    </div>
+</form>

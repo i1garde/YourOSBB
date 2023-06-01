@@ -13,6 +13,10 @@ public class UnitOfWork : IUnitOfWork
     public IProposalRepository ProposalRepository { get; private set; }
     public IComplaintRepository ComplaintRepository { get; private set; }
     public ITariffRepository TariffRepository { get; private set; }
+    public IPollRepository PollRepository { get; private set; }
+    public IPollCandidateRepository PollCandidateRepository { get; private set; }
+    public IUserVoteRepository UserVoteRepository { get; private set; }
+    public ICompletedPollRepository CompletedPollRepository { get; private set; }
     public UserManager<ApplicationUser> ApplicationUserManager { get; private set; }
     
     private readonly ApplicationDbContext _dbContext;
@@ -29,6 +33,10 @@ public class UnitOfWork : IUnitOfWork
         ProposalRepository = new ProposalRepository(dbContext);
         ComplaintRepository = new ComplaintRepository(dbContext);
         TariffRepository = new TariffRepository(dbContext);
+        PollRepository = new PollRepository(dbContext);
+        PollCandidateRepository = new PollCandidateRepository(dbContext);
+        UserVoteRepository = new UserVoteRepository(dbContext);
+        CompletedPollRepository = new CompletedPollRepository(dbContext);
     }
     
     public async Task DoAsync() => await _dbContext.SaveChangesAsync();

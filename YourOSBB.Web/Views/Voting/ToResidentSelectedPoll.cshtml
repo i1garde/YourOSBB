@@ -1,0 +1,38 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_ResidentLayout";
+}
+
+<form asp-controller="Voting" asp-action="ResidentVoteForCandidate" method="post">
+    <div>
+        <h3>Проголосувати</h3>
+        <tr>
+            <td>
+                Назва голосування: @ViewBag.PollName
+            </td>
+            <br/>
+            <td>
+                Опис: @ViewBag.PollDescription
+            </td>
+            <br/>
+            <td>
+                Кандидати:
+            </td>
+            <br/>
+            @foreach (var v in @ViewBag.PollCandidatesIdName)
+            {
+                <div>@v.Item1</div>
+                <br/>
+                <div>@v.Item2</div>
+                <br/>
+                <td>
+                    <a asp-controller="Voting" asp-action="ResidentVoteForCandidate" asp-route-pollCandidateId=@v.Item1 >Проголосувати</a>
+                </td>
+                <br/>
+            }
+        </tr>
+        <br/>
+    </div>
+</form>

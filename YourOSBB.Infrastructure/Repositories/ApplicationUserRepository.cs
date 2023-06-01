@@ -15,4 +15,10 @@ public class ApplicationUserRepository : Repository<ApplicationUser>, IApplicati
         ApplicationUser find = await GetByIdAsync(entity.Id);
         _dbContext.Entry(find).CurrentValues.SetValues(entity);
     }
+    
+    public async Task<IEnumerable<ApplicationUser>> GetAllResidentsInOsbb(int osbbId)
+    {
+        IEnumerable<ApplicationUser> find = await _dbSet.ToListAsync();
+        return find.Where(x => x.OsbbId == osbbId);
+    }
 }

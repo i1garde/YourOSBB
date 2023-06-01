@@ -1,0 +1,39 @@
+﻿@model List<YourOSBB.Web.Models.Entities.VotingViewModels.PollViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_OsbbHeadLayout";
+}
+
+<div>
+    <a asp-controller="Voting" asp-action="CreatePoll" class="btn btn-secondary">
+        Створити голосування
+    </a>
+</div>
+<div>
+    <h3>Список голосувань:</h3>
+    @foreach (var obj in Model)
+    {
+        <tr>
+            <td>
+                @obj.Name
+            </td>
+            <br/>
+            <td>
+                @obj.Description
+            </td>
+            <br/>
+            <td>
+                @obj.Date
+            </td>
+            <br/>
+            <td>
+                <a asp-controller="Voting" asp-action="HeadVote" asp-route-pollId="@obj.Id" class="btn btn-secondary">
+                    Проголосувати
+                </a>
+            </td>
+            <br/>
+        </tr>
+        <br/>
+    }
+</div>

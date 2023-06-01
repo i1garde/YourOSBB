@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using YourOSBB.Entities;
+using YourOSBB.Entities.VotingEntities;
 using YourOSBB.Infrastructure.Interfaces;
 
 namespace YourOSBB.Infrastructure;
@@ -14,6 +15,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
     public DbSet<Complaint> Complaint { get; set; }
     public DbSet<Proposal> Proposal { get; set; }
     public DbSet<Tariff> Tariff { get; set; }
+    public DbSet<Poll> Poll { get; set; }
+    public DbSet<PollCandidate> PollCandidate { get; set; }
+    public DbSet<UserVote> UserVote { get; set; }
+    public DbSet<CompletedPoll> CompletedPoll { get; set; }
 
 
     public ApplicationDbContext()
@@ -32,6 +37,12 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
         builder.Entity<ApplicationUser>(entity => { entity.ToTable("ApplicationUsers"); });
+        
+        builder.Entity<Osbb>()
+            .HasMany(e => e.Residents)
+            .WithOne(e => e.Osbb)
+            .HasForeignKey(e => e.OsbbId)
+            .IsRequired(false);
     }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
