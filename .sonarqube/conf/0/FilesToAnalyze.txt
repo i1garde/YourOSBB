@@ -1,0 +1,12 @@
+﻿C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Announcement.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\ApplicationRole.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\ApplicationUser.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Complaint.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\NameRecord.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Osbb.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Proposal.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Tariff.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\CompletedPoll.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\Poll.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\PollCandidate.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\UserVote.cs

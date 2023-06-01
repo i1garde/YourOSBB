@@ -7,6 +7,8 @@ using YourOSBB.Services;
 using YourOSBB.Services.Interfaces;
 using YourOSBB.Web.Models.Entities;
 
+namespace YourOSBB.Web;
+
 public class Program
 {
     public static async Task Main(string[] args)

@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YourOSBB.Web
+build_property.RootNamespace = YourOSBB.Web
+build_property.ProjectDir = C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/CreateComplaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XENyZWF0ZUNvbXBsYWludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/ToHeadComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XFRvSGVhZENvbXBsYWludHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/ToHeadNoComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XFRvSGVhZE5vQ29tcGxhaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/ToResidentsComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XFRvUmVzaWRlbnRzQ29tcGxhaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/ToResidentsNoComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XFRvUmVzaWRlbnRzTm9Db21wbGFpbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/AnnouncementCreation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQW5ub3VuY2VtZW50Q3JlYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/CreateOsbb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQ3JlYXRlT3NiYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/NoAnnouncements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcTm9Bbm5vdW5jZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/Osbb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcT3NiYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/OsbbHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcT3NiYkhlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/ShowAnnouncements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcU2hvd0Fubm91bmNlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/CreateProposal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcQ3JlYXRlUHJvcG9zYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/ToHeadNoProposals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcVG9IZWFkTm9Qcm9wb3NhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/ToHeadProposals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcVG9IZWFkUHJvcG9zYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/ToResidentsNoProposals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcVG9SZXNpZGVudHNOb1Byb3Bvc2Fscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/ToResidentsProposals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcVG9SZXNpZGVudHNQcm9wb3NhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Resident/NoAnnouncements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRcTm9Bbm5vdW5jZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Resident/Osbb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRcT3NiYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Resident/OsbbNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRcT3NiYk5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Resident/Resident.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRcUmVzaWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Resident/ShowAnnouncements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRcU2hvd0Fubm91bmNlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/_OsbbHeadLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Pc2JiSGVhZExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/_ResidentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXNpZGVudExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/CreateTariff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXENyZWF0ZVRhcmlmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ToHeadNoTariffs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvSGVhZE5vVGFyaWZmcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ToHeadTariffs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvSGVhZFRhcmlmZnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ToResidentsNoTariffs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvUmVzaWRlbnRzTm9UYXJpZmZzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ToResidentsTariffs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvUmVzaWRlbnRzVGFyaWZmcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/CreatePoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXENyZWF0ZVBvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadNoPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZE5vUG9sbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZFBvbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToHeadSelectedPoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvSGVhZFNlbGVjdGVkUG9sbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentSelectedPoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRTZWxlY3RlZFBvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentsNoPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRzTm9Qb2xscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/ToResidentsPolls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXFRvUmVzaWRlbnRzUG9sbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-29e159c3ka

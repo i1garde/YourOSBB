@@ -1,0 +1,17 @@
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Infrastructure.deps.json
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Infrastructure.runtimeconfig.json
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Infrastructure.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Infrastructure.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Entities.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\bin\Release\net7.0\YourOSBB.Entities.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.AssemblyInfo.cs
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.csproj.CopyComplete
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\refint\YourOSBB.Infrastructure.dll
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.pdb
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\YourOSBB.Infrastructure.genruntimeconfig.cache
+C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\obj\Release\net7.0\ref\YourOSBB.Infrastructure.dll
