@@ -7,7 +7,7 @@
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>http://localhost:9000</SonarQubeHostUrl>
   <SonarQubeVersion>10.0.0.68432</SonarQubeVersion>
-  <SonarProjectKey>Your_Osbb_123</SonarProjectKey>
+  <SonarProjectKey>OsbbProj123</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />

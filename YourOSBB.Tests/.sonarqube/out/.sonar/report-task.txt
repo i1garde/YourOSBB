@@ -1,0 +1,6 @@
+﻿projectKey=Your_Osbb_123
+serverUrl=http://localhost:9000
+serverVersion=10.0.0.68432
+dashboardUrl=http://localhost:9000/dashboard?id=Your_Osbb_123
+ceTaskId=AYh22w_s4e5c_v_sPa2-
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYh22w_s4e5c_v_sPa2-

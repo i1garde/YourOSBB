@@ -1,4 +1,19 @@
-¥
+´
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
+ @
+ G
+ 
+ 
+ 
+ 
+		 
+
+
+ 
+ 
+ 
+ 	 
+   (   &' 6    ! ,   () 8I PQ \    '0 6C G # 5  !!! ## %% Q&& F'' ¥
 _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Login.cshtml.cs
  @
  G
@@ -39,22 +54,7 @@ _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account
 ’’; S
 ““ 
 —— C
-˜˜ ´
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
- @
- G
- 
- 
- 
- 
-		 
-
-
- 
- 
- 
- 	 
-   (   &' 6    ! ,   () 8I PQ \    '0 6C G # 5  !!! ## %% Q&& F'' ô"
+˜˜ ô"
 bC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Register.cshtml.cs
  @
  G
@@ -544,7 +544,12 @@ dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
 E H 
     # 
   
-  & ,: EF \ Þ
+  & ,: EF \ ã
+KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
+ 	
+    
+  "$ ' 
+ " (Þ
 rC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewModels\PollWithCandidatesViewModel.cs
  	
    ( 
@@ -557,12 +562,7 @@ hC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
     
      
  ! $& ) 
- !; >@ Cã
-KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
- 	
-    
-  "$ ' 
- " (·
+ !; >@ C·
 SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfile.cs
  
  
@@ -593,12 +593,12 @@ SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfil
 33$ 1	44 ‹88 
 99 99 99 !99" &99' .994 5997 ;:: :: :: << >> 
 JJ KK =MM MM OO PP9 DPPE TRR RR RR  'RR) 3RR5 ?TT TT TT  VV VV WW WW2 5WW6 EÀ
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
  
  	
     ! 
  À
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
  
  	
     ! 

@@ -39,15 +39,7 @@ UC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\ApplicationDbCont
 cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.cs
  
  	
-   (+ 67 CÂ
-dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollCandidateRepository.cs
- 
- 	
-   ), 78 E¹
-[C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollRepository.cs
- 
- 	
-    # ./ 3À
+   (+ 67 CÀ
 fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.cs
  
  
@@ -78,19 +70,32 @@ dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ICompl
  
  	
     # ./ 3 
-  ç
+  Â
+dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollCandidateRepository.cs
+ 
+ 	
+   ), 78 E¹
+[C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollRepository.cs
+ 
+ 	
+    # ./ 3ç
 _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IProposalRepository.cs
  
  	
    $' 23 ; 
-   
-dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\AnnouncementRepository.cs
+  É
+WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IRepository.cs
  
- 
- 
- 	
-   #& 01 =@ W		 
-		 !		" +		9 =å
+ 	
+      %& '* / 	 
+   		 		 #		$ (		) *		, 0
+
+ 
+
+	 
+
+  	 
+  	      + /    -. /< @      å
 ]C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ITariffRepository.cs
  
  	
@@ -104,7 +109,27 @@ WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IUnitO
 
  
 
-5 8 - 0 / 2 ) , % ( 7 : - 0 7 :  : = ñ
+5 8 - 0 / 2 ) , % ( 7 : - 0 7 :  : = ½
+_C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IUserVoteRepository.cs
+ 
+ 	
+   $' 23 ; 
+dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\AnnouncementRepository.cs
+ 
+ 
+ 
+ 	
+   #& 01 =@ W		 
+		 !		" +		9 =ƒ
+gC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\ApplicationUserRepository.cs
+ 
+ 
+ 
+ 	
+   &) 34 CF `		 
+		 $		% .		< @ 
+   ,  $ 
+   !" 1J M  #, 1 ñ
 aC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\ComplaintRepository.cs
  
  
@@ -119,28 +144,7 @@ eC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\Comp
  
  	
    $' 12 ?B Z		 
-		 "		# ,		: >ƒ
-gC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\ApplicationUserRepository.cs
- 
- 
- 
- 	
-   &) 34 CF `		 
-		 $		% .		< @ 
-   ,  $ 
-   !" 1J M  #, 1 É
-WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IRepository.cs
- 
- 	
-      %& '* / 	 
-   		 		 #		$ (		) *		, 0
-
- 
-
-	 
-
-  	 
-  	      + /    -. /< @      ì
+		 "		# ,		: >ì
 \C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\OsbbRepository.cs
  
  
@@ -148,11 +152,7 @@ WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IRepos
  	
     () -0 ?		 
 		 		 #		1 5 
-   !  ½
-_C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IUserVoteRepository.cs
- 
- 	
-   $' 23 ;¡
+   !  ¡
 eC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\PollCandidateRepository.cs
  
  

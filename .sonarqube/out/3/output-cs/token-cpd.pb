@@ -1,4 +1,120 @@
-ˆF
+›
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
+	namespace 	
+YourOSBB
+ 
+. 
+Web 
+. 
+Areas 
+. 
+Identity %
+.% &
+Pages& +
+.+ ,
+Account, 3
+{ 
+public 
+
+class 
+LogoutModel 
+: 
+	PageModel (
+{ 
+private 
+readonly 
+SignInManager &
+<& '
+ApplicationUser' 6
+>6 7
+_signInManager8 F
+;F G
+private 
+readonly 
+ILogger  
+<  !
+LogoutModel! ,
+>, -
+_logger. 5
+;5 6
+public 
+LogoutModel 
+( 
+SignInManager (
+<( )
+ApplicationUser) 8
+>8 9
+signInManager: G
+,G H
+ILoggerI P
+<P Q
+LogoutModelQ \
+>\ ]
+logger^ d
+)d e
+{ 	
+_signInManager 
+= 
+signInManager *
+;* +
+_logger 
+= 
+logger 
+; 
+} 	
+public 
+async 
+Task 
+< 
+IActionResult '
+>' (
+OnPost) /
+(/ 0
+string0 6
+	returnUrl7 @
+=A B
+nullC G
+)G H
+{ 	
+await 
+_signInManager  
+.  !
+SignOutAsync! -
+(- .
+). /
+;/ 0
+_logger 
+. 
+LogInformation "
+(" #
+$str# 5
+)5 6
+;6 7
+if 
+( 
+	returnUrl 
+!= 
+null !
+)! "
+{   
+return!! 
+LocalRedirect!! $
+(!!$ %
+	returnUrl!!% .
+)!!. /
+;!!/ 0
+}"" 
+else## 
+{$$ 
+return'' 
+RedirectToPage'' %
+(''% &
+)''& '
+;''' (
+}(( 
+})) 	
+}** 
+}++ ˆF
 _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Login.cshtml.cs
 	namespace 	
 YourOSBB
@@ -599,123 +715,7 @@ ModelState
 ™™ 	
 }
 šš 
-}›› ›
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
-	namespace 	
-YourOSBB
- 
-. 
-Web 
-. 
-Areas 
-. 
-Identity %
-.% &
-Pages& +
-.+ ,
-Account, 3
-{ 
-public 
-
-class 
-LogoutModel 
-: 
-	PageModel (
-{ 
-private 
-readonly 
-SignInManager &
-<& '
-ApplicationUser' 6
->6 7
-_signInManager8 F
-;F G
-private 
-readonly 
-ILogger  
-<  !
-LogoutModel! ,
->, -
-_logger. 5
-;5 6
-public 
-LogoutModel 
-( 
-SignInManager (
-<( )
-ApplicationUser) 8
->8 9
-signInManager: G
-,G H
-ILoggerI P
-<P Q
-LogoutModelQ \
->\ ]
-logger^ d
-)d e
-{ 	
-_signInManager 
-= 
-signInManager *
-;* +
-_logger 
-= 
-logger 
-; 
-} 	
-public 
-async 
-Task 
-< 
-IActionResult '
->' (
-OnPost) /
-(/ 0
-string0 6
-	returnUrl7 @
-=A B
-nullC G
-)G H
-{ 	
-await 
-_signInManager  
-.  !
-SignOutAsync! -
-(- .
-). /
-;/ 0
-_logger 
-. 
-LogInformation "
-(" #
-$str# 5
-)5 6
-;6 7
-if 
-( 
-	returnUrl 
-!= 
-null !
-)! "
-{   
-return!! 
-LocalRedirect!! $
-(!!$ %
-	returnUrl!!% .
-)!!. /
-;!!/ 0
-}"" 
-else## 
-{$$ 
-return'' 
-RedirectToPage'' %
-(''% &
-)''& '
-;''' (
-}(( 
-})) 	
-}** 
-}++ ©“
+}›› ©“
 bC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Register.cshtml.cs
 	namespace 	
 YourOSBB
@@ -8973,34 +8973,6 @@ UseRoutingCC 
 ;[[ 
 }\\ 
 }]] ç
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
-	namespace 	
-YourOSBB
- 
-. 
-Web 
-. 
-Views 
-. 
-OsbbHead %
-;% &
-public 
-class 
-OsbbHead 
-: 
-	PageModel !
-{ 
-public 
-
-void 
-OnGet 
-( 
-) 
-{ 
-}
-
- 
-} ç
 TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
 	namespace 	
 YourOSBB
@@ -9015,6 +8987,34 @@ TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.csht
 public 
 class 
 Resident 
+: 
+	PageModel !
+{ 
+public 
+
+void 
+OnGet 
+( 
+) 
+{ 
+}
+
+ 
+} ç
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
+	namespace 	
+YourOSBB
+ 
+. 
+Web 
+. 
+Views 
+. 
+OsbbHead %
+;% &
+public 
+class 
+OsbbHead 
 : 
 	PageModel !
 { 

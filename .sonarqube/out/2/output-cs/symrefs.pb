@@ -38,23 +38,7 @@ QC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ApplicationUserService.
 --( 6
 
 22. C
-22H N44K Q³
-KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ComplaintService.cs
-
- P
-		 #       "" ## 
-( 2  
-
-. 4
-
- 
-$ -7 @
-
-! (
-- /B D
-
-   
-  ' 0""5 >¼
+22H N44K Q¼
 ZC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IAnnouncementService.cs
 
  %
@@ -73,7 +57,23 @@ ZC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IAnnouncemen
 
 
 
-$ *ã
+$ *³
+KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ComplaintService.cs
+
+ P
+		 #       "" ## 
+( 2  
+
+. 4
+
+ 
+$ -7 @
+
+! (
+- /B D
+
+   
+  ' 0""5 >ã
 ]C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IApplicationUserService.cs
 
  (
@@ -237,23 +237,7 @@ FC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\OsbbService.cs
 ( *= ?
 
  
-" &0 4²
-JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs
-
- P
-		 #       "" ## 
-' 1  
-
-- 3
-
- 
-# +6 >
-
-  '
-, .A C
-
-   
-  & .""4 <°
+" &0 4°
 HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs
 
  P
@@ -269,7 +253,23 @@ HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs
 * ,? A
 
    
-  $ *""2 8î
+  $ *""2 8²
+JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs
+
+ P
+		 #       "" ## 
+' 1  
+
+- 3
+
+ 
+# +6 >
+
+  '
+, .A C
+
+   
+  & .""4 <î
 HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\VotingService.cs
 
  n

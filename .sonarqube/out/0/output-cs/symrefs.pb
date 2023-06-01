@@ -38,12 +38,7 @@ JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\ApplicationUser.cs
 
  
 
- _
-EC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\NameRecord.cs
-
- 
-
-  $Á
+ Á
 ?C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Osbb.cs
 
  
@@ -62,7 +57,12 @@ EC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\NameRecord.cs
 $ * 
 3 7 
 @ F 
-O Z &š
+O Z &_
+EC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\NameRecord.cs
+
+ 
+
+  $š
 DC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Complaint.cs
 
  

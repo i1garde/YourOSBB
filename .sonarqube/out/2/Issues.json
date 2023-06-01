@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/ProposalService.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/AnnouncementService.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 25,
@@ -81,28 +81,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/ApplicationUserService.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 25,
-                  "endLine": 11,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_unitOfWork' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/AnnouncementService.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/ProposalService.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 25,
@@ -149,6 +128,27 @@
                   "startLine": 9,
                   "startColumn": 25,
                   "endLine": 9,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_unitOfWork' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Services/ApplicationUserService.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 25,
+                  "endLine": 11,
                   "endColumn": 36
                 }
               }

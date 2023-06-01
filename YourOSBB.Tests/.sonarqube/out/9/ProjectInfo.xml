@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>YourOSBB.Tests</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>b6ee6598-76c3-4654-86ef-35328d9153d1</ProjectGuid>
+  <FullPath>C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Tests\YourOSBB.Tests.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Tests\.sonarqube\conf\9\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Tests\.sonarqube\out\9\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Tests\.sonarqube\out\9</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net7.0</TargetFramework>
+</ProjectInfo>

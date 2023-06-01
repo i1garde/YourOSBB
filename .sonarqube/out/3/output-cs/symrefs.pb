@@ -1,4 +1,13 @@
-˝
+ö
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
+ ! ,Q \
+8 F   
+. 5  
+: G *
+^ d 
+
+) /
+7 @ !!% .˝
 _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Login.cshtml.cs
  ! +P Z2
 8 F hh$ 2qq$ 2ww# 1*
@@ -30,16 +39,7 @@ _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account
 áá 
 ãã  
 ||  }}  
-ÅÅ  ö
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
- ! ,Q \
-8 F   
-. 5  
-: G *
-^ d 
-
-) /
-7 @ !!% . 
+ÅÅ   
 bC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Register.cshtml.cs
  !!! .(( !8
 8 F.. 
@@ -663,7 +663,13 @@ dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
   
   $ 
 - 8 !
-^ l '§
+^ l '{
+KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
+
+ 
+ 7 @
+
+ §
 rC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewModels\PollWithCandidatesViewModel.cs
 
  (
@@ -683,13 +689,7 @@ hC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
 
  
 
-" 8{
-KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
-
- 
- 7 @
-
- a
+" 8a
 SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfile.cs
 
 		 ‚
@@ -708,12 +708,12 @@ SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfil
 MM PP 
 OO VV &WW %
 RR TT! &n
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
 
  
 
  n
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
 
  
 

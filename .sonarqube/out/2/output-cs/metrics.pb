@@ -19,7 +19,7 @@ TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\ITariffServi
 f
 TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IVotingService.csr	
 w
-FC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\OsbbService.cs 8r	 !‚~
-JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs 8r	 !"#$%‚"#|
-HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs 8r	 !"#$%‚"#˜
+FC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\OsbbService.cs 8r	 !‚|
+HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs 8r	 !"#$%‚"#~
+JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs 8r	 !"#$%‚"#˜
 HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\VotingService.cs 8r3	 !#$%&()*+-./013456789:;<=>‚ %*/059<
