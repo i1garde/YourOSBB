@@ -8,4 +8,5 @@ public interface IOsbbService
     Task Add(Osbb osbb);
     Task<Osbb> GetById(int id);
     Task Update(Osbb osbb);
+    Task<ApplicationUser> ReturnOsbbHead(int osbbId);
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sl5cR5/9cnNK3LJktjPH0kZlgLEd026pKV6B0hEDj0fcAEOKl+X48BSAEGl85RM+oMKtaH4MNWjQXee5Bxo5+w==",
+  "dgSpecHash": "Z/zwwOtjU6BpnMhWCGAK+twhzwWZ5MhcCxQaGrbvi7QNwz5JKkHS4CzrP7lly2rI12EJyBHDbcRF447l9oeAlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,7 @@
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
-    "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\vanya\\.nuget\\packages\\sonaranalyzer.csharp\\9.2.0.71021\\sonaranalyzer.csharp.9.2.0.71021.nupkg.sha512"
+    "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

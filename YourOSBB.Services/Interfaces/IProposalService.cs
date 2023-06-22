@@ -8,4 +8,5 @@ public interface IProposalService
     Task Add(Proposal proposal);
     Task<Proposal> GetById(int id);
     Task Update(Proposal proposal);
+    Task Delete(Proposal ent);
 }

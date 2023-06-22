@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7fYcZxAuJyolAonZlXkFqudf+skaEPkDUQQmsFmnyEmIlyULzblnsItYvOlHFyaHyMOC+0jOCi3SpVPkcmQMFg==",
+  "dgSpecHash": "cZ6hNL4Kf2+wz9Og5i6V85L0uRJEy5k7X9GtG0yIUCuc28beaJrkLGNsWC86ANNfpbD/I+/p0s6g/A21UFLAaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\vanya\\.nuget\\packages\\sonaranalyzer.csharp\\9.2.0.71021\\sonaranalyzer.csharp.9.2.0.71021.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"

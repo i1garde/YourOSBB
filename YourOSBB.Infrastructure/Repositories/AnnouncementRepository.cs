@@ -9,4 +9,10 @@ public class AnnouncementRepository : Repository<Announcement>, IAnnouncementRep
     public AnnouncementRepository(DbContext dbContext) : base(dbContext)
     {
     }
+    
+    public async Task Update(Announcement entity)
+    {
+        Announcement find = await GetByIdAsync(entity.AnnouncementId);
+        _dbContext.Entry(find).CurrentValues.SetValues(entity);
+    }
 }

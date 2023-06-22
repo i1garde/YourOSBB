@@ -1,8 +1,8 @@
 ^
 UC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\ApplicationDbContext.csutf-8l
-cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.csutf-8o
-fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.csutf-8i
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.csutf-8m
+cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.csutf-8i
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.csutf-8o
+fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.csutf-8m
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ICompletedPollRepository.csutf-8d
 [C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IOsbbRepository.csutf-8m
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollCandidateRepository.csutf-8d

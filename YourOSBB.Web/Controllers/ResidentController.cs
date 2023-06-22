@@ -32,9 +32,14 @@ public class ResidentController : Controller
     }
     // GET
     [Authorize(Roles = "Resident")]
-    public IActionResult Resident()
+    public async Task<IActionResult> Resident()
     {
-        return View();
+        var usr = await _userManager.GetUserAsync(HttpContext.User);
+        ViewBag.Surname = usr.Surname;
+        ViewBag.Name = usr.Name;
+        ViewBag.PatronymicName = usr.PatronymicName;
+        ViewBag.UserEmail = usr.Email;
+        return View(_mapper.Map<ApplicationUser, ApplicationUserViewModel>(usr));
     }
     
     [Authorize(Roles = "Resident")]
@@ -47,6 +52,10 @@ public class ResidentController : Controller
             return View("OsbbNotFound");
         }
         var osbb = await _osbbService.GetById(userOsbb.OsbbId.Value);
+        var osbbHead = await _osbbService.ReturnOsbbHead(osbb.OsbbId);
+        ViewBag.OsbbHeadName = $"{osbbHead.Surname} {osbbHead.Name} {osbbHead.PatronymicName}";
+        ViewBag.OsbbHeadEmail = osbbHead.Email;
+        
         return View(_mapper.Map<Osbb, OsbbViewModel>(osbb));
     }
     

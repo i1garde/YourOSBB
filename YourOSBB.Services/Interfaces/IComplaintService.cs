@@ -8,4 +8,5 @@ public interface IComplaintService
     Task Add(Complaint complaint);
     Task<Complaint> GetById(int id);
     Task Update(Complaint complaint);
+    Task Delete(Complaint ent);
 }

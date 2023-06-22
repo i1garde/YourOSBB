@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QCs+NQR+KSXaqw1O+2Y20mElrJnNb/n71zL76DPZTzvFxhPpbS7Zh/mS1OWm6QImkSyXuk/io0As0pRAR8m0bA==",
+  "dgSpecHash": "JdlV/5TvMVPUZJjg8QP3LGdNkcLHbgGwGNrl69ztuDUVDWLfQCEWM/9t/V7jchJgbdz7dyFEkq5PiiOYQNJ1Gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
   "expectedPackageFiles": [
@@ -109,7 +109,6 @@
     "C:\\Users\\vanya\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\vanya\\.nuget\\packages\\sonaranalyzer.csharp\\9.2.0.71021\\sonaranalyzer.csharp.9.2.0.71021.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

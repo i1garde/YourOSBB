@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\UnitOfWork.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using Microsoft.AspNetCore.Identity;
+using YourOSBB.Entities;
+using YourOSBB.Infrastructure.Interfaces;
+using YourOSBB.Infrastructure.Repositories;
+
+namespace YourOSBB.Infrastructure;
+
+public class UnitOfWork : IUnitOfWork
+{
+    public IOsbbRepository OsbbRepository { get; private set; }
+    public IApplicationUserRepository ApplicationUserRepository { get; private set; }
+    public IAnnouncementRepository AnnouncementRepository { get; private set; }
+    public IProposalRepository ProposalRepository { get; private set; }
+    public IComplaintRepository ComplaintRepository { get; private set; }
+    public ITariffRepository TariffRepository { get; private set; }
+    public IPollRepository PollRepository { get; private set; }
+    public IPollCandidateRepository PollCandidateRepository { get; private set; }
+    public IUserVoteRepository UserVoteRepository { get; private set; }
+    public ICompletedPollRepository CompletedPollRepository { get; private set; }
+    public UserManager&lt;ApplicationUser&gt; ApplicationUserManager { get; private set; }
+    
+    private readonly ApplicationDbContext _dbContext;
+    
+    public UnitOfWork(
+        ApplicationDbContext dbContext,
+        UserManager&lt;ApplicationUser&gt; userManager)
+    {
+        _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+        ApplicationUserManager = userManager;
+        OsbbRepository = new OsbbRepository(dbContext);
+        ApplicationUserRepository = new ApplicationUserRepository(dbContext);
+        AnnouncementRepository = new AnnouncementRepository(dbContext);
+        ProposalRepository = new ProposalRepository(dbContext);
+        ComplaintRepository = new ComplaintRepository(dbContext);
+        TariffRepository = new TariffRepository(dbContext);
+        PollRepository = new PollRepository(dbContext);
+        PollCandidateRepository = new PollCandidateRepository(dbContext);
+        UserVoteRepository = new UserVoteRepository(dbContext);
+        CompletedPollRepository = new CompletedPollRepository(dbContext);
+    }
+    
+    public async Task DoAsync() =&gt; await _dbContext.SaveChangesAsync();
+    
+    private bool _disposed;
+
+    public UnitOfWork()
+    {
+        
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        await DisposeAsync(true);
+        GC.SuppressFinalize(this);
+    }
+    
+    protected virtual async ValueTask DisposeAsync(bool disposing)
+    {
+        if (!_disposed)
+        {
+            if (disposing)         
+            {
+                await _dbContext.DisposeAsync();
+            }
+            _disposed = true;
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[10,45,10,49,0],[10,50,10,62,0],[11,67,11,71,0],[11,72,11,84,0],[12,61,12,65,0],[12,66,12,78,0],[13,53,13,57,0],[13,58,13,70,0],[14,55,14,59,0],[14,60,14,72,0],[15,49,15,53,0],[15,54,15,66,0],[16,45,16,49,0],[16,50,16,62,0],[17,63,17,67,0],[17,68,17,80,0],[18,53,18,57,0],[18,58,18,70,0],[19,63,19,67,0],[19,68,19,80,0],[20,66,20,70,0],[20,71,20,83,0],[24,5,26,50,0],[27,5,27,6,0],[28,9,28,86,0],[29,9,29,46,0],[30,9,30,56,0],[31,9,31,78,0],[32,9,32,72,0],[33,9,33,64,0],[34,9,34,66,0],[35,9,35,60,0],[36,9,36,56,0],[37,9,37,74,0],[38,9,38,64,0],[39,9,39,74,0],[40,5,40,6,0],[42,36,42,71,0],[46,5,46,24,1],[47,5,47,6,1],[49,5,49,6,1],[52,5,52,6,0],[53,9,53,34,0],[54,9,54,35,0],[55,5,55,6,0],[58,5,58,6,0],[59,9,59,24,0],[60,9,60,10,0],[61,13,61,27,0],[62,13,62,14,0],[63,17,63,49,0],[64,13,64,14,0],[65,13,65,30,0],[66,9,66,10,0],[67,5,67,6,0]]);
+    </script>
+  </body>
+</html>

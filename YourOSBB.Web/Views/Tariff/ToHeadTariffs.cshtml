@@ -1,4 +1,4 @@
-﻿@model List<YourOSBB.Web.Models.Entities.TariffViewModel>
+﻿@model List<(YourOSBB.Web.Models.Entities.TariffViewModel, YourOSBB.Entities.ApplicationUser Result)>
 
 @{
     ViewBag.Title = "title";
@@ -6,28 +6,46 @@
 }
 
 <div>
-    <a asp-controller="Tariff" asp-action="CreateTariff" class="btn btn-secondary">
+    <a asp-controller="Tariff" asp-action="CreateTariff" class="btn btn-secondary btn-sm">
         Створити витрату
     </a>
 </div>
 <div>
     <h3>Витрати жителів ОСББ:</h3>
-    @foreach (var obj in Model)
-    {
+    <table class="table">
+        <thead>
         <tr>
-            <td>
-                @obj.Name
-            </td>
-            <br/>
-            <td>
-                @obj.Description
-            </td>
-            <br/>
-            <td>
-                @obj.Cost
-            </td>
-            <br/>
+            <th>ПІБ</th>
+            <th>Назва</th>
+            <th>Опис</th>
+            <th>Ціна</th>
+            <th>Дія</th>
         </tr>
-        <br/>
-    }
+        </thead>
+        <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.Item2.Surname @obj.Item2.Name @obj.Item2.PatronymicName</td>
+                <td>@obj.Item1.Name</td>
+                <td>@obj.Item1.Description</td>
+                <td>@obj.Item1.Cost грн.</td>
+                <td>
+                    <a asp-controller="Tariff" asp-action="UpdateTariff" asp-route-id="@obj.Item1.TariffId" class="btn btn-secondary btn-sm">Змінити</a>
+                    <form asp-controller="Tariff" asp-action="DeleteTariff" method="post">
+                        <input type="hidden" name="tariffId" value="@obj.Item1.TariffId"/>
+                        <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td><b>Сума:</b></td>
+            <td></td>
+            <td></td>
+            <td>@ViewBag.UsersCostSum грн.</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
 </div>

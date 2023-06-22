@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/ChangeComplaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XENoYW5nZUNvbXBsYWludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Complaint/CreateComplaint.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XENyZWF0ZUNvbXBsYWludC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQW5ub3VuY2VtZW50Q3JlYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/ChangeAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQ2hhbmdlQW5ub3VuY2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/ChangeOsbb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQ2hhbmdlT3NiYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/ChangeUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQ2hhbmdlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/CreateOsbb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcQ3JlYXRlT3NiYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,6 +110,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/OsbbHead/ShowAnnouncements.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3NiYkhlYWRcU2hvd0Fubm91bmNlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/ChangeProposal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcG9zYWxcQ2hhbmdlUHJvcG9zYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Proposal/CreateProposal.cshtml]
@@ -156,6 +176,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ChangeTariff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXENoYW5nZVRhcmlmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/CreateTariff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXENyZWF0ZVRhcmlmZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -174,6 +198,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Tariff/ToResidentsTariffs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZmXFRvUmVzaWRlbnRzVGFyaWZmcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/CompletedPollErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90aW5nXENvbXBsZXRlZFBvbGxFcnJvclBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Web/Views/Voting/CreatePoll.cshtml]

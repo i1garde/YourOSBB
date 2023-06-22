@@ -194,9 +194,6 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
-      },
-      "SonarAnalyzer.CSharp/9.2.0.71021": {
-        "type": "package"
       }
     }
   },
@@ -516,32 +513,11 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "SonarAnalyzer.CSharp/9.2.0.71021": {
-      "sha512": "KoUlM82k1DNccIatOrxeYVfBXk8yWCyGsD/14PvDnkNHab6cIlIr20TTE8Zn2Szb6CGrA5a6fYcwspkgG8DlSg==",
-      "type": "package",
-      "path": "sonaranalyzer.csharp/9.2.0.71021",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/Google.Protobuf.dll",
-        "analyzers/SonarAnalyzer.CFG.dll",
-        "analyzers/SonarAnalyzer.CSharp.dll",
-        "analyzers/SonarAnalyzer.dll",
-        "images/sonarsource_64.png",
-        "license/THIRD-PARTY-NOTICES.txt",
-        "sonaranalyzer.csharp.9.2.0.71021.nupkg.sha512",
-        "sonaranalyzer.csharp.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.Extensions.Identity.Stores >= 7.0.5",
-      "SonarAnalyzer.CSharp >= 9.2.0.71021"
+      "Microsoft.Extensions.Identity.Stores >= 7.0.5"
     ]
   },
   "packageFolders": {
@@ -584,12 +560,6 @@
           "Microsoft.Extensions.Identity.Stores": {
             "target": "Package",
             "version": "[7.0.5, )"
-          },
-          "SonarAnalyzer.CSharp": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[9.2.0.71021, )"
           }
         },
         "imports": [

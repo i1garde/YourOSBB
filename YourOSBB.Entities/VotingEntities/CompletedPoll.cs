@@ -7,6 +7,6 @@ public class CompletedPoll
     public int OsbbId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
-    public PollCandidate WinnerPollCandidate { get; set; }
+    public string WinnerPollCandidateName { get; set; }
     public DateTime Date { get; set; }
 }

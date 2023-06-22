@@ -5,14 +5,18 @@
 }
 
 <div>
-    Ви на сторінці ОСББ
+    <h3>Інформація про ОСББ:</h3>
 </div>
 <div>
-    Назва ОСББ: @Model.Name<br/>
-    Область: @Model.Region<br/>
-    Місто: @Model.City<br/>
-    Вулиця: @Model.Street<br/>
-    Номер будинку: @Model.HouseNumber<br/>
+    <b>Назва ОСББ:</b> @Model.Name<br/>
+    <b>Область:</b> @Model.Region<br/>
+    <b>Населений пункт:</b> @Model.City<br/>
+    <b>Вулиця:</b> @Model.Street<br/>
+    <b>Номер будинку:</b> @Model.HouseNumber<br/>
+</div>
+
+<div>
+    <a asp-controller="OsbbHead" asp-action="ChangeOsbbInfo" asp-route-id="@Model" class="btn btn-secondary btn-sm">Змінити інформацію</a>
 </div>
 @* <div>
     <h3>Жителі будинку:</h3>
@@ -29,3 +33,32 @@
         <br/>
     }
 </div> *@
+<div>
+    <h3>Мешканці ОСББ:</h3>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ПІБ</th>
+            <th>Пошта</th>
+            <th>Номер телефона</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var obj in ViewBag.OsbbUsers)
+        {
+            <tr>
+                <td>@obj.Surname @obj.Name @obj.PatronymicName</td>
+                <td>@obj.Email</td>
+                @if (@obj.PhoneNumber == null)
+                {
+                    <td>-</td>
+                }
+                else
+                {
+                    <td>@obj.PhoneNumber</td>
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,31 @@
+﻿@model YourOSBB.Web.Models.Entities.ProposalViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_ResidentLayout";
+}
+
+<form method="post" asp-action="UpdateProposalPost" asp-controller="Proposal">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Змінити пропозицію:</h2>
+            <hr/>
+        </div>
+        <input type="hidden" asp-for="ProposalId" class="form-control" value="@ViewBag.ProposalId"/>
+        <input type="hidden" asp-for="OsbbId" class="form-control" value="@ViewBag.OsbbId"/>
+        <input type="hidden" asp-for="UserId" class="form-control" value="@ViewBag.UserId"/>
+        <input type="hidden" asp-for="Date" class="form-control" value="@DateTime.Now"/>
+        <div class="mb-3">
+            <label asp-for="Name">Тема</label>
+            <input asp-for="Name" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Text">Текст</label>
+            <input asp-for="Text" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Змінити</button>
+        <a asp-controller="Proposal" asp-action="ShowProposalsToResidents" class="btn btn-secondary">
+            До пропозицій
+        </a>
+    </div>
+</form>

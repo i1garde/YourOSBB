@@ -37,14 +37,46 @@ public class VotingController : Controller
     {
         var usr = await _applicationUserService.GetUserManager().GetUserAsync(HttpContext.User);
         var getPolls = await _votingService.ShowActiveOsbbPolls(usr.OsbbId.Value);
+        var notVotedPolls = await _votingService.GetNoVotedPollsForUser(usr.Id);
+        var votedPolls = getPolls
+            .SelectMany(x => _votingService.GetAlreadyVotedPollsForUser(x.Id, usr.Id).Result)
+            .GroupBy(x => x.Id)
+            .Select(x => x.First())
+            .ToList();
+
+        var noVoteRes = notVotedPolls
+            .Select(x => x.Id)
+            .Except(votedPolls.Select(x => x.Id))
+            .Select(x => _votingService.GetPollById(x).Result);
+
+        var compPoll = await _votingService.GetAllCompletedPollsByOsbb(usr.OsbbId.Value);
+
+        var pollViewModel = new PollsCategoryViewModel()
+        {
+            notVotedPoll = noVoteRes.Select(x => _mapper.Map<Poll, PollViewModel>(x)).ToList(),
+            votedPoll = votedPolls
+                .Select(x => new VotedPoll() { 
+                    poll = _mapper.Map<Poll, PollViewModel>(x), 
+                    canditate = new Canditate()
+                    {
+                        PollCandidate = _votingService.GetManyPollCandidatesByPollId(x.Id)
+                            .Result
+                            .Select(x => (x, _votingService.GetAllUserVotes().Result.Where(y => y.PollCandidateId == x.Id).Count()))
+                    }
+                })
+                .ToList(),
+            completedPoll = compPoll.Select(x => new CompletedPollViewModel()
+            {
+                Date = x.Date, Description = x.Description, Name = x.Name, WinnerPollCandidate = x.WinnerPollCandidateName
+            })
+        };
         
         if (getPolls.IsNullOrEmpty())
         {
             return View("ToHeadNoPolls");
         }
         
-        return View("ToHeadPolls", getPolls
-            .Select(x => _mapper.Map<Poll, PollViewModel>(x)).ToList());
+        return View("ToHeadPolls", pollViewModel);
     }
     
     [Authorize(Roles = "Resident")]
@@ -52,14 +84,46 @@ public class VotingController : Controller
     {
         var usr = await _applicationUserService.GetUserManager().GetUserAsync(HttpContext.User);
         var getPolls = await _votingService.ShowActiveOsbbPolls(usr.OsbbId.Value);
+        var notVotedPolls = await _votingService.GetNoVotedPollsForUser(usr.Id);
+        var votedPolls = getPolls
+            .SelectMany(x => _votingService.GetAlreadyVotedPollsForUser(x.Id, usr.Id).Result)
+            .GroupBy(x => x.Id)
+            .Select(x => x.First())
+            .ToList();
+
+        var noVoteRes = notVotedPolls
+            .Select(x => x.Id)
+            .Except(votedPolls.Select(x => x.Id))
+            .Select(x => _votingService.GetPollById(x).Result);
+        
+        var compPoll = await _votingService.GetAllCompletedPollsByOsbb(usr.OsbbId.Value);
+
+        var pollViewModel = new PollsCategoryViewModel()
+        {
+            notVotedPoll = noVoteRes.Select(x => _mapper.Map<Poll, PollViewModel>(x)).ToList(),
+            votedPoll = votedPolls
+                .Select(x => new VotedPoll() { 
+                    poll = _mapper.Map<Poll, PollViewModel>(x), 
+                    canditate = new Canditate()
+                    {
+                        PollCandidate = _votingService.GetManyPollCandidatesByPollId(x.Id)
+                            .Result
+                            .Select(x => (x, _votingService.GetAllUserVotes().Result.Where(y => y.PollCandidateId == x.Id).Count()))
+                    }
+                })
+                .ToList(),
+            completedPoll = compPoll.Select(x => new CompletedPollViewModel()
+            {
+                Date = x.Date, Description = x.Description, Name = x.Name, WinnerPollCandidate = x.WinnerPollCandidateName
+            })
+        };
         
         if (getPolls.IsNullOrEmpty())
         {
             return View("ToResidentsNoPolls");
         }
         
-        return View("ToResidentsPolls", getPolls
-            .Select(x => _mapper.Map<Poll, PollViewModel>(x)).ToList());
+        return View("ToResidentsPolls", pollViewModel);
     }
     
     [Authorize(Roles = "OsbbHead")]
@@ -123,8 +187,6 @@ public class VotingController : Controller
     {
         var pollCandId = Convert.ToInt32(pollCandidateId);
         
-        Console.WriteLine($"DEBUGGG: {pollCandId}");
-        
         var usr = await _applicationUserService.GetUserManager().GetUserAsync(HttpContext.User);
 
         var pollCand = await _votingService.GetPollCandidateById(pollCandId);
@@ -140,8 +202,6 @@ public class VotingController : Controller
     {
         var pollCandId = Convert.ToInt32(pollCandidateId);
         
-        Console.WriteLine($"DEBUGGG: {pollCandId}");
-        
         var usr = await _applicationUserService.GetUserManager().GetUserAsync(HttpContext.User);
 
         var pollCand = await _votingService.GetPollCandidateById(pollCandId);
@@ -149,5 +209,51 @@ public class VotingController : Controller
         await _votingService.VoteForCandidate(usr.Id, pollCand);
         
         return RedirectToAction("ShowVotingToResidents");
+    }
+        
+    [Authorize(Roles = "OsbbHead")]
+    [HttpGet]
+    public async Task<IActionResult> CompletePoll(string pollId)
+    {
+        var pollCandId = Convert.ToInt32(pollId);
+        
+        var usr = await _applicationUserService.GetUserManager().GetUserAsync(HttpContext.User);
+
+        var pollCand = await _votingService.GetPollWinner(pollCandId);
+
+        if (pollCand == null)
+        {
+            //Can't complete poll
+            return View("CompletedPollErrorPage");
+        }
+        else
+        {
+            //Delete poll and create poll completed
+            var poll = await _votingService.GetPollById(pollCandId);
+            var pollCompleted = new CompletedPoll()
+            {
+                Date = poll.Date,
+                Description = poll.Description,
+                Name = poll.Name,
+                OsbbId = poll.OsbbId,
+                UserId = poll.UserId,
+                WinnerPollCandidateName = pollCand.Name
+            };
+            await _votingService.CreateCompletedPoll(pollCompleted);
+            await _votingService.DeletePoll(poll);
+            
+            return RedirectToAction("ShowVotingToHead");
+        }
+    }
+    
+    [Authorize(Roles = "OsbbHead")]
+    [HttpPost]
+    public async Task<IActionResult> DeletePoll(string pollId)
+    {
+        int id = Convert.ToInt32(pollId);
+        var tar = await _votingService.GetPollById(id);
+        await _votingService.DeletePoll(tar);
+        
+        return RedirectToAction("ShowVotingToHead");
     }
 }

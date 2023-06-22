@@ -7,6 +7,6 @@ public class CompletedPollViewModel
     public int OsbbId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
-    public PollCandidateViewModel WinnerPollCandidateViewModel { get; set; }
+    public string WinnerPollCandidate { get; set; }
     public DateTime Date { get; set; }
 }

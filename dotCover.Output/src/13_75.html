@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\Repository.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
+using YourOSBB.Entities;
+using YourOSBB.Infrastructure.Interfaces;
+
+namespace YourOSBB.Infrastructure.Repositories;
+
+public class Repository&lt;T&gt; : IRepository&lt;T&gt; where T : class
+{
+    protected readonly DbContext _dbContext;
+    protected readonly DbSet&lt;T&gt;  _dbSet;
+
+    public Repository(DbContext dbContext)
+    {
+        _dbContext = dbContext;
+        _dbSet = _dbContext.Set&lt;T&gt;();
+    }
+
+    public async Task&lt;T&gt; AddAsync(T entity)
+    {
+        await _dbSet.AddAsync(entity);
+        return entity;
+    }
+
+    public Task DeleteAsync(T entity)
+    {
+        _dbSet.Remove(entity);
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteManyAsync(Expression&lt;Func&lt;T, bool&gt;&gt; filter)
+    {
+        var entities = _dbSet.Where(filter);
+        _dbSet.RemoveRange(entities);
+        return Task.CompletedTask;
+    }
+
+    public async Task&lt;IEnumerable&lt;T&gt;&gt; GetAllAsync()
+    {
+        return await _dbSet.ToListAsync();
+    }
+
+    public async Task&lt;T&gt; GetByIdAsync(int id)
+    {
+        return await _dbSet.FindAsync(id);
+    }
+
+    public async Task&lt;IEnumerable&lt;T&gt;&gt; GetManyAsync(
+        Expression&lt;Func&lt;T, bool&gt;&gt; filter = null, 
+        Func&lt;IQueryable&lt;T&gt;, IOrderedQueryable&lt;T&gt;&gt; orderBy = null, 
+        int? top = null, 
+        int? skip = null,
+        params string[] includeProperties)
+    {
+        IQueryable&lt;T&gt; query = _dbSet;
+ 
+        if (filter != null)
+        {
+            query = query.Where(filter);
+        }
+        if (includeProperties.Length &gt; 0)
+        {
+            query = includeProperties.Aggregate(query, (theQuery, theInclude) =&gt; theQuery.Include(theInclude));
+        }
+        if (orderBy != null)
+        {
+            query = orderBy(query);
+        }
+        if (skip.HasValue)
+        {
+            query = query.Skip(skip.Value);
+        }
+        if (top.HasValue)
+        {
+            query = query.Take(top.Value);
+        }
+        return await query.ToListAsync();
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[13,5,13,43,0],[14,5,14,6,0],[15,9,15,32,0],[16,9,16,38,0],[17,5,17,6,0],[20,5,20,6,0],[21,9,21,39,0],[22,9,22,23,0],[23,5,23,6,0],[26,5,26,6,0],[27,9,27,31,0],[28,9,28,35,0],[29,5,29,6,0],[32,5,32,6,0],[33,9,33,45,0],[34,9,34,38,0],[35,9,35,35,0],[36,5,36,6,0],[39,5,39,6,0],[40,9,40,43,0],[41,5,41,6,0],[44,5,44,6,0],[45,9,45,43,0],[46,5,46,6,0],[54,5,54,6,0],[55,9,55,38,0],[57,9,57,28,0],[58,9,58,10,0],[59,13,59,41,0],[60,9,60,10,0],[61,9,61,42,0],[62,9,62,10,0],[63,13,63,82,0],[63,82,63,110,0],[63,110,63,112,0],[64,9,64,10,0],[65,9,65,29,0],[66,9,66,10,0],[67,13,67,36,0],[68,9,68,10,0],[69,9,69,27,0],[70,9,70,10,0],[71,13,71,44,0],[72,9,72,10,0],[73,9,73,26,0],[74,9,74,10,0],[75,13,75,43,0],[76,9,76,10,0],[77,9,77,42,0],[78,5,78,6,0]]);
+    </script>
+  </body>
+</html>

@@ -313,6 +313,35 @@ Interfaces" ,
 Announcement7 C
 >C D
 { 
+} Â
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.cs
+	namespace 	
+YourOSBB
+ 
+. 
+Infrastructure !
+.! "
+
+Interfaces" ,
+;, -
+public 
+	interface  
+IComplaintRepository %
+:& '
+IRepository( 3
+<3 4
+	Complaint4 =
+>= >
+{ 
+public 
+
+Task 
+Update 
+( 
+	Complaint  
+entity! '
+)' (
+;( )
 } ç
 fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.cs
 	namespace 	
@@ -385,36 +414,7 @@ Interfaces" ,
 ;
 
 O P
-} Â
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.cs
-	namespace 	
-YourOSBB
- 
-. 
-Infrastructure !
-.! "
-
-Interfaces" ,
-;, -
-public 
-	interface  
-IComplaintRepository %
-:& '
-IRepository( 3
-<3 4
-	Complaint4 =
->= >
-{ 
-public 
-
-Task 
-Update 
-( 
-	Complaint  
-entity! '
-)' (
-;( )
-} ¼
+} ¼
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ICompletedPollRepository.cs
 	namespace 	
 YourOSBB
@@ -1860,7 +1860,7 @@ Repository" ,
 
  
 } 
-} Ë1
+} ³2
 KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\UnitOfWork.cs
 	namespace 	
 YourOSBB
@@ -2161,64 +2161,72 @@ _dbContext**) 3
 	_disposed,, 
 ;,, 
 public.. 
-
-async.. 
-	ValueTask.. 
-DisposeAsync.. '
-(..' (
-)..( )
-{// 
-await00 
-DisposeAsync00 
-(00 
-true00 
-)00  
-;00  !
-GC11 
-
-.11
- 
-SuppressFinalize11 
-(11 
-this11  
-)11  !
-;11! "
-}22 
-	protected44 
-virtual44 
-async44 
-	ValueTask44 %
-DisposeAsync44& 2
-(442 3
-bool443 7
-	disposing448 A
-)44A B
-{55 
-if66 
-
-(66 
-!66 
-	_disposed66 
-)66 
-{77 	
-if88 
-(88 
-	disposing88 
-)88 
-{99 
-await:: 
+
 
-_dbContext::  
-.::  !
-DisposeAsync::! -
-(::- .
-)::. /
-;::/ 0
-};; 
-	_disposed<< 
-=<< 
-true<< 
-;<< 
-}== 	
-}>> 
-}?? 
+UnitOfWork.. 
+(.. 
+).. 
+{// 
+}11 
+public33 
+
+async33 
+	ValueTask33 
+DisposeAsync33 '
+(33' (
+)33( )
+{44 
+await55 
+DisposeAsync55 
+(55 
+true55 
+)55  
+;55  !
+GC66 
+
+.66
+ 
+SuppressFinalize66 
+(66 
+this66  
+)66  !
+;66! "
+}77 
+	protected99 
+virtual99 
+async99 
+	ValueTask99 %
+DisposeAsync99& 2
+(992 3
+bool993 7
+	disposing998 A
+)99A B
+{:: 
+if;; 
+
+(;; 
+!;; 
+	_disposed;; 
+);; 
+{<< 	
+if== 
+(== 
+	disposing== 
+)== 
+{>> 
+await?? 
+
+_dbContext??  
+.??  !
+DisposeAsync??! -
+(??- .
+)??. /
+;??/ 0
+}@@ 
+	_disposedAA 
+=AA 
+trueAA 
+;AA 
+}BB 	
+}CC 
+}DD 

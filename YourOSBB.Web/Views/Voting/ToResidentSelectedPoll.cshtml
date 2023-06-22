@@ -6,33 +6,29 @@
 }
 
 <form asp-controller="Voting" asp-action="ResidentVoteForCandidate" method="post">
-    <div>
-        <h3>Проголосувати</h3>
-        <tr>
-            <td>
-                Назва голосування: @ViewBag.PollName
-            </td>
-            <br/>
-            <td>
-                Опис: @ViewBag.PollDescription
-            </td>
-            <br/>
-            <td>
-                Кандидати:
-            </td>
-            <br/>
-            @foreach (var v in @ViewBag.PollCandidatesIdName)
-            {
-                <div>@v.Item1</div>
+    <div class="card mb-3">
+            <div class="card-body mb-3">
+                <h3>Проголосувати</h3>
+                <tr>
+                    <td class="mb-3">
+                        <b>Назва голосування:</b> @ViewBag.PollName
+                    </td>
+                    <br/>
+                    <td class="mb-3">
+                        <b>Опис:</b> @ViewBag.PollDescription
+                    </td>
+                    <br/>
+                    <td class="mb-3">
+                        <b>Кандидати:</b>
+                    </td>
+                    <br/>
+                    @foreach (var v in @ViewBag.PollCandidatesIdName)
+                    {
+                        <div class="mb-3"><input type="radio" name="pollCandidateId" value="@v.Item1"/> @v.Item2</div>
+                    }
+                    <button type="submit" class="btn btn-primary mb-3">Проголосувати</button>
+                </tr>
                 <br/>
-                <div>@v.Item2</div>
-                <br/>
-                <td>
-                    <a asp-controller="Voting" asp-action="ResidentVoteForCandidate" asp-route-pollCandidateId=@v.Item1 >Проголосувати</a>
-                </td>
-                <br/>
-            }
-        </tr>
-        <br/>
-    </div>
+            </div>
+        </div>
 </form>

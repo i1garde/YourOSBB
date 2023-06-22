@@ -39,12 +39,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/Repositories/Repository.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/Interfaces/IRepository.cs",
                 "region": {
-                  "startLine": 49,
-                  "startColumn": 44,
-                  "endLine": 49,
-                  "endColumn": 48
+                  "startLine": 14,
+                  "startColumn": 61,
+                  "endLine": 14,
+                  "endColumn": 65
                 }
               }
             }
@@ -60,12 +60,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/Interfaces/IRepository.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/Repositories/Repository.cs",
                 "region": {
-                  "startLine": 14,
-                  "startColumn": 61,
-                  "endLine": 14,
-                  "endColumn": 65
+                  "startLine": 49,
+                  "startColumn": 44,
+                  "endLine": 49,
+                  "endColumn": 48
                 }
               }
             }
@@ -836,6 +836,414 @@
           }
         },
         {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'OsbbRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 28,
+                  "endLine": 10,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ApplicationUserRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 39,
+                  "endLine": 11,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'AnnouncementRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 36,
+                  "endLine": 12,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ProposalRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 32,
+                  "endLine": 13,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ComplaintRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 33,
+                  "endLine": 14,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'TariffRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 30,
+                  "endLine": 15,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PollRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 28,
+                  "endLine": 16,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PollCandidateRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 37,
+                  "endLine": 17,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UserVoteRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 32,
+                  "endLine": 18,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'CompletedPollRepository' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 37,
+                  "endLine": 19,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ApplicationUserManager' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 41,
+                  "endLine": 20,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_dbContext' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 43,
+                  "endLine": 22,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "CS8603",
           "level": "warning",
           "message": "Possible null reference return.",
@@ -854,6 +1262,43 @@
           ],
           "properties": {
             "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'UnitOfWork' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 12,
+                  "endLine": 24,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Infrastructure/UnitOfWork.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 12,
+                  "endLine": 46,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
           }
         },
         {
@@ -967,6 +1412,23 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
             "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
+          "properties": {
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

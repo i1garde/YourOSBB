@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model YourOSBB.Web.Models.Entities.OsbbViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_OsbbHeadLayout";
+}
+
+<form method="post" asp-action="UpdateOsbbPost" asp-controller="OsbbHead">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Змінити дані ОСББ:</h2>
+            <hr/>
+        </div>
+        <input type="hidden" asp-for="OsbbId" class="form-control" value="@ViewBag.OsbbId"/>
+        <div class="mb-3">
+            <label asp-for="Name">Назва ОСББ</label>
+            <input asp-for="Name" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Region">Область</label>
+            <input asp-for="Region" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="City">Населений пункт</label>
+            <input asp-for="City" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Street">Вулиця</label>
+            <input asp-for="Street" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="HouseNumber">Номер будинку</label>
+            <input asp-for="HouseNumber" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Змінити</button>
+        <a asp-controller="OsbbHead" asp-action="Osbb" class="btn btn-secondary">
+            До сторінки ОСББ
+        </a>
+    </div>
+</form>

@@ -34,4 +34,10 @@ public class ComplaintService : IComplaintService
         await _unitOfWork.ComplaintRepository.Update(complaint);
         await _unitOfWork.DoAsync();
     }
+    
+    public async Task Delete(Complaint ent)
+    {
+        await _unitOfWork.ComplaintRepository.DeleteAsync(ent);
+        await _unitOfWork.DoAsync();
+    }
 }

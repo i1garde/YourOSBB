@@ -34,8 +34,12 @@ public class Tests
             Name = "a"
         };
         var cl = role;
+
+        ApplicationRole role1 = new ApplicationRole("qq");
+        var cl1 = role;
         
         Assert.AreEqual(role, cl);
+        Assert.AreEqual(role1, cl1);
     }
     [Test]
     public void TestUser()

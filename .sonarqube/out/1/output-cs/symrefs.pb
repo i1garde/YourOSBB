@@ -37,7 +37,14 @@ UC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\ApplicationDbCont
 00B Pq
 cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.cs
 
- (¤
+ (†
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.cs
+
+ %
+
+ 
+
+! '¤
 fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.cs
 
  +
@@ -52,14 +59,7 @@ fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAppli
 
 
 
-H N†
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.cs
-
- %
-
- 
-
-! 'r
+H Nr
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ICompletedPollRepository.cs
 
  )
@@ -277,13 +277,13 @@ KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\UnitOfWork.cs
  1&& 
 $ ;'' 
 ( > (
-* 4 **) 3::  ‚
+* 4 **) 3??  ‚
  & I R, 5B K  < E!!4 =""6 ?##0 9$$, 5%%> G&&4 =''> G
 % 0! ,
 
 ** 
-,, 66 << 
+,, ;; AA 
 
-.. '
-44& 200 
-448 A88 
+33 '
+99& 255 
+998 A== 

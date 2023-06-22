@@ -15,6 +15,23 @@ GC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Announcement.cs
 
 
 
+ š
+DC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Complaint.cs
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+		 
+
+
+
  n
 JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\ApplicationRole.cs
 
@@ -38,42 +55,42 @@ JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\ApplicationUser.cs
 
  
 
- Á
-?C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Osbb.cs
-
- 
-
- 
-  
-  
-		  
-
-
-  
-  
-
-( 1
-  
-$ * 
-3 7 
-@ F 
-O Z &_
+ _
 EC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\NameRecord.cs
 
  
 
-  $š
-DC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Complaint.cs
+  $¹
+WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\CompletedPoll.cs
 
- 
+ 
 
- 
+ 
+
+ 
+
+ 
+
+ 
+
+		 
+
+
+
+ ,
+
+ —
+AC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Tariff.cs
+
+ 
+
+ 
 
  
 
- 
+ 
 
- 
+ 
 
 		 
 
@@ -96,43 +113,26 @@ CC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Proposal.cs
 
 
 
- —
-AC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Tariff.cs
+ Á
+?C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\Osbb.cs
 
- 
+ 
 
- 
-
- 
-
- 
-
- 
-
-		 
-
+ 
+  
+  
+		  
 
 
- ¹
-WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\CompletedPoll.cs
+  
+  
 
- 
-
- 
-
- 
-
- 
-
- 
-
-		 
-
-
-
- ,
-
- š
+( 1
+  
+$ * 
+3 7 
+@ F 
+O Z &š
 NC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\VotingEntities\Poll.cs
 
  

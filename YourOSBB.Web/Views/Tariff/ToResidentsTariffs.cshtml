@@ -7,22 +7,28 @@
 
 <div>
     <h3>Витрати на обслуговування ОСББ:</h3>
-    @foreach (var obj in Model)
-    {
+    <table class="table">
+        <thead>
         <tr>
-            <td>
-                @obj.Name
-            </td>
-            <br/>
-            <td>
-                @obj.Description
-            </td>
-            <br/>
-            <td>
-                @obj.Cost
-            </td>
-            <br/>
+            <th>Назва</th>
+            <th>Опис</th>
+            <th>Ціна</th>
         </tr>
-        <br/>
-    }
+        </thead>
+        <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.Description</td>
+                <td>@obj.Cost грн.</td>
+            </tr>
+        }
+        <tr>
+            <td><b>Сума:</b></td>
+            <td></td>
+            <td>@ViewBag.UserCostSum грн.</td>
+        </tr>
+        </tbody>
+    </table>
 </div>

@@ -1,4 +1,4 @@
-﻿@model List<YourOSBB.Web.Models.Entities.ProposalViewModel>
+﻿@model IEnumerable<(YourOSBB.Web.Models.Entities.ProposalViewModel, YourOSBB.Entities.ApplicationUser Result)>
 
 @{
     ViewBag.Title = "title";
@@ -14,20 +14,53 @@
     <h3>Пропозиції від жителів ОСББ:</h3>
     @foreach (var obj in Model)
     {
-        <tr>
-            <td>
-                @obj.Name
-            </td>
-            <br/>
-            <td>
-                @obj.Text
-            </td>
-            <br/>
-            <td>
-                @obj.Date
-            </td>
-            <br/>
-        </tr>
-        <br/>
+        <div class="card mb-3">
+            <div class="card-body mb-3">
+                <tr>
+                    <td>
+                        <h5>@obj.Item1.Name</h5>
+                    </td>
+                    <td>
+                        @obj.Item1.Text
+                    </td>
+                    <br/>
+                    <td>
+                        <i>@obj.Item2.Surname @obj.Item2.Name @obj.Item2.PatronymicName</i>
+                    </td>
+                    <br/>
+                    <td>
+                        <b>Дата:</b> @obj.Item1.Date
+                    </td>
+                </tr>
+            </div>
+        </div>
     }
+    <h3>Мої пропозиції:</h3>
+        @foreach (var obj in @ViewBag.userProposals)
+        {
+            <div class="card mb-3">
+                <div class="card-body mb-3">
+                    <tr>
+                        <td>
+                            <h5>@obj.Name</h5>
+                        </td>
+                        <td>
+                            @obj.Text
+                        </td>
+                        <br/>
+                        <td>
+                            <b>Дата:</b> @obj.Date
+                        </td>
+                        <br/>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <a asp-controller="Proposal" asp-action="UpdateProposal" asp-route-propId="@obj.ProposalId" class="btn btn-secondary btn-sm">Змінити</a>
+                            <form asp-controller="Proposal" asp-action="DeleteProposal" method="post">
+                                <input type="hidden" name="proposalId" value="@obj.ProposalId"/>
+                                <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                            </form>
+                        </div>
+                    </tr>
+                </div>
+            </div>
+        }
 </div>

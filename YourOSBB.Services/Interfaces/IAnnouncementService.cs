@@ -8,4 +8,5 @@ public interface IAnnouncementService
     Task Delete(Announcement ent);
     Task<Announcement> GetById(int id);
     Task<IEnumerable<Announcement>> GetAll();
+    Task Update(Announcement announcement);
 }

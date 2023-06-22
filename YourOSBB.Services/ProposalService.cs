@@ -34,4 +34,10 @@ public class ProposalService : IProposalService
         await _unitOfWork.ProposalRepository.Update(proposal);
         await _unitOfWork.DoAsync();
     }
+    
+    public async Task Delete(Proposal ent)
+    {
+        await _unitOfWork.ProposalRepository.DeleteAsync(ent);
+        await _unitOfWork.DoAsync();
+    }
 }

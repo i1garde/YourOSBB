@@ -5,12 +5,14 @@
 }
 
 <div>
-    Ви на сторінці ОСББ
+    <h3>Інформація про ОСББ:</h3>
 </div>
 <div>
-    Назва ОСББ: @Model.Name<br/>
-    Область: @Model.Region<br/>
-    Місто: @Model.City<br/>
-    Вулиця: @Model.Street<br/>
-    Номер будинку: @Model.HouseNumber<br/>
+    <b>Назва ОСББ:</b> @Model.Name<br/>
+    <b>Область:</b> @Model.Region<br/>
+    <b>Місто:</b> @Model.City<br/>
+    <b>Вулиця:</b> @Model.Street<br/>
+    <b>Номер будинку:</b> @Model.HouseNumber<br/>
+    <b>Голова ОСББ:</b> @ViewBag.OsbbHeadName<br/>
+    <b>Пошта голови ОСББ для зворотнього зв'язку:</b> @ViewBag.OsbbHeadEmail<br/>
 </div>

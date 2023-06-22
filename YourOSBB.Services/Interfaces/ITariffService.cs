@@ -8,4 +8,5 @@ public interface ITariffService
     Task Add(Tariff tariff);
     Task<Tariff> GetById(int id);
     Task Update(Tariff tariff);
+    Task Delete(Tariff tariff);
 }

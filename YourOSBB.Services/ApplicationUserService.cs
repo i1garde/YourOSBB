@@ -51,4 +51,10 @@ public class ApplicationUserService : IApplicationUserService
     {
         return _unitOfWork.ApplicationUserRepository.GetAllResidentsInOsbb(osbbId);
     }
+    
+    public async Task Update(ApplicationUser osbb)
+    {
+        await _unitOfWork.ApplicationUserRepository.Update(osbb);
+        await _unitOfWork.DoAsync();
+    }
 }

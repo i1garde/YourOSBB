@@ -5,7 +5,7 @@
 }
 
 <div>
-    <a asp-controller="OsbbHead" asp-action="AnnouncementCreation" class="btn btn-secondary">
+    <a asp-controller="OsbbHead" asp-action="AnnouncementCreation" class="btn btn-secondary btn-sm">
         Створити оголошення
     </a>
 </div>
@@ -13,20 +13,31 @@
     <h3>Оголошення від голови ОСББ:</h3>
     @foreach (var obj in Model)
     {
-        <tr>
-            <td>
-                @obj.Name
-            </td>
-            <br/>
-            <td>
-                @obj.Text
-            </td>
-            <br/>
-            <td>
-                @obj.Date
-            </td>
-            <br/>
-        </tr>
-        <br/>
+        <div class="card mb-3">
+            <div class="card-body mb-3">
+                <tr>
+                    <td>
+                        <h5>@obj.Name</h5>
+                    </td>
+                    <td>
+                        @obj.Text
+                    </td>
+                    <br/>
+                    <td>
+                        <b>Дата:</b> @obj.Date
+                    </td>
+                    <br/>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a asp-controller="OsbbHead" asp-action="AnnouncementUpdate" asp-route-anonId="@obj.AnnouncementId" class="btn btn-secondary btn-sm">
+                            Змінити оголошення
+                        </a>
+                        <form asp-controller="OsbbHead" asp-action="DeleteAnnouncement" method="post">
+                            <input type="hidden" name="announcementId" value="@obj.AnnouncementId"/>
+                            <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                        </form>
+                    </div>
+                </tr>
+            </div>
+        </div>
     }
 </div>

@@ -1,9 +1,21 @@
-﻿@model YourOSBB.Web.Models.Entities.OsbbViewModel
+﻿@model YourOSBB.Web.Models.Entities.ApplicationUserViewModel
 
 @{
     Layout = "_OsbbHeadLayout";
 }
 
 <div>
-    Ви на головній сторінці голови ОСББ
+    <h5>Ви на головній сторінці голови ОСББ</h5>
 </div>
+
+<div>
+    <b>Призвіще:</b> Комаренко<br/>
+    <b>Ім'я:</b> Іван<br/>
+    <b>По батькові:</b> Володимирович<br/>
+    <b>Електронна пошта:</b> komarenkoi@gmail.com<br/>
+</div>
+@*
+<div>
+    <a asp-controller="OsbbHead" asp-action="ChangeUserInfo" asp-route-id="@Model" class="btn btn-secondary btn-sm">Змінити інформацію</a>
+</div>
+*@

@@ -34,4 +34,10 @@ public class AnnouncementService : IAnnouncementService
     {
         return await _unitOfWork.AnnouncementRepository.GetAllAsync();
     }
+    
+    public async Task Update(Announcement announcement)
+    {
+        await _unitOfWork.AnnouncementRepository.Update(announcement);
+        await _unitOfWork.DoAsync();
+    }
 }

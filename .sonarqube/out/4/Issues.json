@@ -11,7 +11,456 @@
         "language": "en-US"
       },
       "results": [
-      ]
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/TestInfrastructure.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 54,
+                  "endLine": 31,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 9,
+                  "endLine": 49,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 9,
+                  "endLine": 56,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 9,
+                  "endLine": 63,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 9,
+                  "endLine": 27,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 9,
+                  "endLine": 91,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 9,
+                  "endLine": 84,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 9,
+                  "endLine": 70,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 9,
+                  "endLine": 77,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 9,
+                  "endLine": 98,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/TestInfrastructure.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 9,
+                  "endLine": 28,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 9,
+                  "endLine": 112,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 9,
+                  "endLine": 105,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 9,
+                  "endLine": 41,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/UnitTest1.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 9,
+                  "endLine": 42,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'listAU' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.NUnitTests/TestInfrastructure.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 54,
+                  "endLine": 31,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Async method lacks 'await' operators and will run synchronously",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "NUnit2005": {
+          "id": "NUnit2005",
+          "shortDescription": "Consider using Assert.That(actual, Is.EqualTo(expected)) instead of Assert.AreEqual(expected, actual)",
+          "fullDescription": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual).",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        }
+      }
     }
   ]
 }

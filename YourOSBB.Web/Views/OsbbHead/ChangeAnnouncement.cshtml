@@ -1,0 +1,32 @@
+﻿@using System.Runtime.InteropServices.JavaScript
+@model YourOSBB.Web.Models.Entities.AnnouncementViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_OsbbHeadLayout";
+}
+
+<form method="post" asp-action="AnnouncementUpdatePost" asp-controller="OsbbHead">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Змінити оголошення:</h2>
+            <hr/>
+        </div>
+        <input type="hidden" asp-for="AnnouncementId" class="form-control" value="@ViewBag.AnnouncementId"/>
+        <input type="hidden" asp-for="OsbbId" class="form-control" value="@ViewBag.OsbbId"/>
+        <input type="hidden" asp-for="UserId" class="form-control" value="@ViewBag.UserId"/>
+        <input type="hidden" asp-for="Date" class="form-control" value="@DateTime.Now"/>
+        <div class="mb-3">
+            <label asp-for="Name">Тема</label>
+            <input asp-for="Name" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Text">Текст</label>
+            <input asp-for="Text" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Змінити</button>
+        <a asp-controller="OsbbHead" asp-action="ShowAnnouncements" class="btn btn-secondary">
+            До оголошень
+        </a>
+    </div>
+</form>

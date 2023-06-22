@@ -26,10 +26,10 @@
             </div> 
         </div>
          
-        <button id="addRow" type="button" class="btn btn-info mb-3">Add</button>
+        <button id="addRow" type="button" class="btn btn-info mb-3 btn-sm">Додати кандидата</button>
         <br/>
-        <button type="submit" class="btn btn-primary mb-3">Створити</button>
-        <a asp-controller="Voting" asp-action="ShowVotingToHead" class="btn btn-secondary mb-3">
+        <button type="submit" class="btn btn-primary mb-3 btn-sm">Створити</button>
+        <a asp-controller="Voting" asp-action="ShowVotingToHead" class="btn btn-secondary mb-3 btn-sm">
             До голосувань
         </a>
     </div>
@@ -47,7 +47,7 @@
         html += '<div id="inputRow">';
         html += '<input type="text" name="Candidate[' + (rowCount - 1) + '].Name" class="form-control mb-3"  />';  
         //add more inputs here...  
-        html += '<button id="removeRow" type="button" class="btn btn-danger mb-3">Remove</button>';  
+        html += '<button id="removeRow" type="button" class="btn btn-danger mb-3 btn-sm">Прибрати кандидата</button>';  
         html += '</div>';  
   
         $('#newRow').append(html);  

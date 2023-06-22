@@ -2,8 +2,9 @@
 
 namespace YourOSBB.Web.Models.Entities;
 
-public class ApplicationUserViewModel : IdentityUser
+public class ApplicationUserViewModel
 {
+    public int Id { get; set; }
     public string Surname { get; set; }
     public string Name { get; set; }
     public string PatronymicName { get; set; }

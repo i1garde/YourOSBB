@@ -271,7 +271,7 @@ namespace YourOSBB.Web.Migrations
 
                     b.HasIndex("OsbbId");
 
-                    b.ToTable("ApplicationUsers", (string)null);
+                    b.ToTable("User", (string)null);
                 });
 
             modelBuilder.Entity("YourOSBB.Entities.Complaint", b =>
@@ -422,12 +422,11 @@ namespace YourOSBB.Web.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("WinnerPollCandidateId")
-                        .HasColumnType("int");
+                    b.Property<string>("WinnerPollCandidateName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("WinnerPollCandidateId");
 
                     b.ToTable("CompletedPoll");
                 });
@@ -493,6 +492,9 @@ namespace YourOSBB.Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("PollCandidateId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PollId")
                         .HasColumnType("int");
 
                     b.Property<int>("UserId")
@@ -563,17 +565,6 @@ namespace YourOSBB.Web.Migrations
                         .HasForeignKey("OsbbId");
 
                     b.Navigation("Osbb");
-                });
-
-            modelBuilder.Entity("YourOSBB.Entities.VotingEntities.CompletedPoll", b =>
-                {
-                    b.HasOne("YourOSBB.Entities.VotingEntities.PollCandidate", "WinnerPollCandidate")
-                        .WithMany()
-                        .HasForeignKey("WinnerPollCandidateId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("WinnerPollCandidate");
                 });
 
             modelBuilder.Entity("YourOSBB.Entities.VotingEntities.PollCandidate", b =>

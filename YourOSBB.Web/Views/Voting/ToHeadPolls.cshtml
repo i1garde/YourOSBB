@@ -1,4 +1,6 @@
-﻿@model List<YourOSBB.Web.Models.Entities.VotingViewModels.PollViewModel>
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.IdentityModel.Tokens
+@model YourOSBB.Web.Models.Entities.VotingViewModels.PollsCategoryViewModel
 
 @{
     ViewBag.Title = "title";
@@ -6,34 +8,126 @@
 }
 
 <div>
-    <a asp-controller="Voting" asp-action="CreatePoll" class="btn btn-secondary">
+    <a asp-controller="Voting" asp-action="CreatePoll" class="btn btn-secondary btn-sm">
         Створити голосування
     </a>
 </div>
 <div>
     <h3>Список голосувань:</h3>
-    @foreach (var obj in Model)
+    @if (Model.notVotedPoll.IsNullOrEmpty())
     {
-        <tr>
+        <h5><i>Голосування відсутні</i></h5>
+    }
+    else
+    {
+        @foreach (var obj in Model.notVotedPoll)
+        {
+            <div class="card mb-3">
+                <div class="card-body mb-3">
+                    <tr>
+                        <td>
+                            <b>Тема:</b> @obj.Name
+                        </td>
+                        <br/>
+                        <td>
+                            <b>Опис:</b> @obj.Description
+                        </td>
+                        <br/>
+                        @*<td>
+                    @obj.Date
+                </td>
+                <br/>*@
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <a asp-controller="Voting" asp-action="HeadVote" asp-route-pollId="@obj.Id" class="btn btn-secondary btn-sm">
+                                    Проголосувати
+                                </a>
+                                <a asp-controller="Voting" asp-action="CompletePoll" asp-route-pollId="@obj.Id" class="btn btn-secondary btn-sm">
+                                    Завершити голосування
+                                </a>
+                                <form asp-controller="Voting" asp-action="DeletePoll" method="post">
+                                    <input type="hidden" name="pollId" value="@obj.Id"/>
+                                    <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        }
+    }
+    <h3>Вже проголосовані:</h3>
+    @if (Model.votedPoll.IsNullOrEmpty())
+    {
+        <h5><i>Голосування відсутні</i></h5>
+    }
+    else
+    {
+        @foreach (var obj in Model.votedPoll)
+        {
+            <div class="card mb-3">
+                <div class="card-body mb-3">
+                    <tr>
+                        <td>
+                            <b>Тема:</b> @obj.poll.Name
+                        </td>
+                        <br/>
+                        <td>
+                            <b>Опис:</b> @obj.poll.Description
+                        </td>
+                        <br/>
+                        @foreach (var cand in @obj.canditate.PollCandidate)
+                        {
+                            <td>
+                                <b>@cand.Item1.Name</b> - @cand.Item2 голосів
+                            </td>
+                            <br/>
+                        }
+                    </tr>
+                </div>
+            </div>
             <td>
-                @obj.Name
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <a asp-controller="Voting" asp-action="CompletePoll" asp-route-pollId="@obj.poll.Id" class="btn btn-secondary btn-sm">
+                        Завершити голосування
+                    </a>
+                    <form asp-controller="Voting" asp-action="DeletePoll" method="post">
+                        <input type="hidden" name="pollId" value="@obj.poll.Id"/>
+                        <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                    </form>
+                </div>
+                
             </td>
             <br/>
-            <td>
-                @obj.Description
-            </td>
-            <br/>
-            <td>
-                @obj.Date
-            </td>
-            <br/>
-            <td>
-                <a asp-controller="Voting" asp-action="HeadVote" asp-route-pollId="@obj.Id" class="btn btn-secondary">
-                    Проголосувати
-                </a>
-            </td>
-            <br/>
-        </tr>
-        <br/>
+        }
+    }
+    <h3>Завершені голосування:</h3>
+    @if (Model.completedPoll.IsNullOrEmpty())
+    {
+        <h5><i>Голосування відсутні</i></h5>
+    }
+    else
+    {
+        @foreach (var obj in Model.completedPoll)
+        {
+            <div class="card mb-3">
+                <div class="card-body mb-3">
+                    <tr>
+                        <td>
+                            <b>Тема:</b> @obj.Name
+                        </td>
+                        <br/>
+                        <td>
+                            <b>Опис:</b> @obj.Description
+                        </td>
+                        <br/>
+                        <td>
+                            <b>Переможець:</b> @obj.WinnerPollCandidate
+                        </td>
+                        <br/>
+                    </tr>
+                </div>
+            </div>
+        }
     }
 </div>

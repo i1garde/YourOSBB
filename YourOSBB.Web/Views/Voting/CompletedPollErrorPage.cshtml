@@ -1,0 +1,15 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Помилка завершення голосування";
+    Layout = "_OsbbHeadLayout";
+}
+
+<h2 style="color: red">Помилка завершення голосування</h2>
+<div>
+    <h5 style="color: red">Або ніхто ще не проголосував, або обране голосування ще не має явного лідера.</h5>
+</div>
+
+<a asp-controller="Voting" asp-action="ShowVotingToHead" class="btn btn-secondary mb-3">
+    До голосувань
+</a>

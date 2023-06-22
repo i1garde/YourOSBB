@@ -1,10 +1,10 @@
 ™
 UC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\ApplicationDbContext.cs 8j$%&r)
 !"#')*+,-.0134‚#')*+,n
-cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.csrt
+cC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IAnnouncementRepository.csrl
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.csrt
 fC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IApplicationUserRepository.csr
-l
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IComplaintRepository.csro
+o
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\ICompletedPollRepository.csrg
 [C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IOsbbRepository.csro
 dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Interfaces\IPollCandidateRepository.csrf
@@ -42,6 +42,6 @@ XC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\Repo
 ‚t
 `C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\UserVoteRepository.cs 8r
 	
-¦
-KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\UnitOfWork.cs 8r7	
- !"#$%&'(*,./012456789:;<=>?x‚ !"#$%&'*0168:<
+©
+KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\UnitOfWork.cs 8r:	
+ !"#$%&'(*,./1345679:;<=>?@ABCDx‚ !"#$%&'*56;=?A

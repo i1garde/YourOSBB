@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.NUnitTests\UnitTest1.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using YourOSBB.Entities;
+using YourOSBB.Entities.VotingEntities;
+
+namespace YourOSBB.NUnitTests;
+
+public class Tests
+{
+    [SetUp]
+    public void Setup()
+    {
+    }
+
+    [Test]
+    public void TestAnnouncement()
+    {
+        Announcement announcement = new Announcement
+        {
+            AnnouncementId = 1,
+            Date = DateTime.MaxValue,
+            Name = &quot;Ivan&quot;,
+            OsbbId = 1,
+            Text = &quot;SomeText&quot;,
+            UserId = 1
+        };
+        var cl = announcement;
+        
+        Assert.AreEqual(announcement, cl);
+    }
+    [Test]
+    public void TestRole()
+    {
+        ApplicationRole role = new ApplicationRole
+        {
+            Name = &quot;a&quot;
+        };
+        var cl = role;
+        
+        Assert.AreEqual(role, cl);
+    }
+    [Test]
+    public void TestUser()
+    {
+        ApplicationUser test = new ApplicationUser();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestComplaint()
+    {
+        Complaint test = new Complaint();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestNameRecord()
+    {
+        NameRecord test = new NameRecord(String.Empty);
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestOsbb()
+    {
+        Osbb test = new Osbb();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestProposal()
+    {
+        Proposal test = new Proposal();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestTariff()
+    {
+        Tariff test = new Tariff();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestPoll()
+    {
+        Poll test = new Poll();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestCompletedPoll()
+    {
+        CompletedPoll test = new CompletedPoll();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestPollCandidate()
+    {
+        PollCandidate test = new PollCandidate();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+    [Test]
+    public void TestUserVote()
+    {
+        UserVote test = new UserVote();
+        var cl = test;
+        Assert.AreEqual(test, cl);
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[10,5,10,6,1],[11,5,11,6,1],[15,5,15,6,1],[16,9,24,11,1],[25,9,25,31,1],[27,9,27,43,1],[28,5,28,6,1],[31,5,31,6,1],[32,9,35,11,1],[36,9,36,23,1],[38,9,38,35,1],[39,5,39,6,1],[42,5,42,6,1],[43,9,43,54,1],[44,9,44,23,1],[45,9,45,35,1],[46,5,46,6,1],[49,5,49,6,1],[50,9,50,42,1],[51,9,51,23,1],[52,9,52,35,1],[53,5,53,6,1],[56,5,56,6,1],[57,9,57,56,1],[58,9,58,23,1],[59,9,59,35,1],[60,5,60,6,1],[63,5,63,6,1],[64,9,64,32,1],[65,9,65,23,1],[66,9,66,35,1],[67,5,67,6,1],[70,5,70,6,1],[71,9,71,40,1],[72,9,72,23,1],[73,9,73,35,1],[74,5,74,6,1],[77,5,77,6,1],[78,9,78,36,1],[79,9,79,23,1],[80,9,80,35,1],[81,5,81,6,1],[84,5,84,6,1],[85,9,85,32,1],[86,9,86,23,1],[87,9,87,35,1],[88,5,88,6,1],[91,5,91,6,1],[92,9,92,50,1],[93,9,93,23,1],[94,9,94,35,1],[95,5,95,6,1],[98,5,98,6,1],[99,9,99,50,1],[100,9,100,23,1],[101,9,101,35,1],[102,5,102,6,1],[105,5,105,6,1],[106,9,106,40,1],[107,9,107,23,1],[108,9,108,35,1],[109,5,109,6,1]]);
+    </script>
+  </body>
+</html>

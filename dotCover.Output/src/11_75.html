@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Infrastructure\Repositories\PollRepository.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using Microsoft.EntityFrameworkCore;
+using YourOSBB.Entities.VotingEntities;
+using YourOSBB.Infrastructure.Interfaces;
+
+namespace YourOSBB.Infrastructure.Repositories;
+
+public class PollRepository : Repository&lt;Poll&gt;, IPollRepository
+{
+    public PollRepository(DbContext dbContext) : base(dbContext)
+    {
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[9,50,9,65,0],[10,5,10,6,0],[11,5,11,6,0]]);
+    </script>
+  </body>
+</html>

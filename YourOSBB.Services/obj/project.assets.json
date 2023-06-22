@@ -316,9 +316,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "SonarAnalyzer.CSharp/9.2.0.71021": {
-        "type": "package"
-      },
       "YourOSBB.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -794,26 +791,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "SonarAnalyzer.CSharp/9.2.0.71021": {
-      "sha512": "KoUlM82k1DNccIatOrxeYVfBXk8yWCyGsD/14PvDnkNHab6cIlIr20TTE8Zn2Szb6CGrA5a6fYcwspkgG8DlSg==",
-      "type": "package",
-      "path": "sonaranalyzer.csharp/9.2.0.71021",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/Google.Protobuf.dll",
-        "analyzers/SonarAnalyzer.CFG.dll",
-        "analyzers/SonarAnalyzer.CSharp.dll",
-        "analyzers/SonarAnalyzer.dll",
-        "images/sonarsource_64.png",
-        "license/THIRD-PARTY-NOTICES.txt",
-        "sonaranalyzer.csharp.9.2.0.71021.nupkg.sha512",
-        "sonaranalyzer.csharp.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
     "YourOSBB.Entities/1.0.0": {
       "type": "project",
       "path": "../YourOSBB.Entities/YourOSBB.Entities.csproj",
@@ -827,7 +804,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "SonarAnalyzer.CSharp >= 9.2.0.71021",
       "YourOSBB.Infrastructure >= 1.0.0"
     ]
   },
@@ -871,14 +847,6 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
-        "dependencies": {
-          "SonarAnalyzer.CSharp": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[9.2.0.71021, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

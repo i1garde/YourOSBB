@@ -14,210 +14,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 19,
-                  "endLine": 6,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'PollCandidate' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -392,109 +188,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 19,
-                  "endLine": 8,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 19,
-                  "endLine": 8,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'WinnerPollCandidate' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 26,
-                  "endLine": 10,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 26,
-                  "endLine": 10,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 19,
@@ -507,7 +201,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 19,
@@ -524,131 +218,29 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 19,
                   "endLine": 7,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 19,
-                  "endLine": 7,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 12,
-                  "endLine": 13,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 19,
-                  "endLine": 8,
                   "endColumn": 23
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 12,
-                  "endLine": 13,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Announcement.cs",
                 "region": {
-                  "startLine": 9,
+                  "startLine": 7,
                   "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'PollCandidates' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 12,
-                  "endLine": 13,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 39,
-                  "endLine": 10,
-                  "endColumn": 53
+                  "endLine": 7,
+                  "endColumn": 23
                 }
               }
             }
@@ -751,6 +343,176 @@
                   "startColumn": 34,
                   "endLine": 9,
                   "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Complaint.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Text' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Proposal.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Poll' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/PollCandidate.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 12,
+                  "endLine": 16,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/PollCandidate.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 17,
+                  "endLine": 7,
+                  "endColumn": 21
                 }
               }
             }
@@ -932,16 +694,16 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Poll' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/PollCandidate.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 12,
-                  "endLine": 16,
-                  "endColumn": 25
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
                 }
               }
             }
@@ -949,12 +711,250 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/PollCandidate.cs",
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
                 "region": {
                   "startLine": 7,
-                  "startColumn": 17,
+                  "startColumn": 19,
                   "endLine": 7,
-                  "endColumn": 21
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/Tariff.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 19,
+                  "endLine": 8,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 19,
+                  "endLine": 8,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'WinnerPollCandidate' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/CompletedPoll.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 19,
+                  "endLine": 8,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PollCandidates' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vanya/RiderProjects/YourOSBB/YourOSBB.Entities/VotingEntities/Poll.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 39,
+                  "endLine": 10,
+                  "endColumn": 53
                 }
               }
             }

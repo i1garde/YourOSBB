@@ -42,7 +42,12 @@ public class UnitOfWork : IUnitOfWork
     public async Task DoAsync() => await _dbContext.SaveChangesAsync();
     
     private bool _disposed;
-    
+
+    public UnitOfWork()
+    {
+        
+    }
+
     public async ValueTask DisposeAsync()
     {
         await DisposeAsync(true);

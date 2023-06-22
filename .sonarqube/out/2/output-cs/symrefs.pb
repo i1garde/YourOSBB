@@ -38,26 +38,7 @@ QC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ApplicationUserService.
 --( 6
 
 22. C
-22H N44K Q¼
-ZC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IAnnouncementService.cs
-
- %
-
-	 
-
- 
-
-	 
-
-  
-
-		 
-
-		# %
-
-
-
-$ *³
+22H N44K Q³
 KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ComplaintService.cs
 
  P
@@ -100,7 +81,26 @@ KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ComplaintService.cs
 
 . C
 
-H N¹
+H N¼
+ZC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IAnnouncementService.cs
+
+ %
+
+	 
+
+ 
+
+	 
+
+  
+
+		 
+
+		# %
+
+
+
+$ *¹
 WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\Interfaces\IComplaintService.cs
 
  "
@@ -237,23 +237,7 @@ FC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\OsbbService.cs
 ( *= ?
 
  
-" &0 4°
-HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs
-
- P
-		 #       "" ## 
-% /  
-
-+ 1
-
- 
-! '4 :
-
- %
-* ,? A
-
-   
-  $ *""2 8²
+" &0 4²
 JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs
 
  P
@@ -269,7 +253,23 @@ JC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\ProposalService.cs
 , .A C
 
    
-  & .""4 <î
+  & .""4 <°
+HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\TariffService.cs
+
+ P
+		 #       "" ## 
+% /  
+
++ 1
+
+ 
+! '4 :
+
+ %
+* ,? A
+
+   
+  $ *""2 8î
 HC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Services\VotingService.cs
 
  n

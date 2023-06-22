@@ -1,13 +1,4 @@
-ö
-`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
- ! ,Q \
-8 F   
-. 5  
-: G *
-^ d 
-
-) /
-7 @ !!% .˝
+˝
 _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Login.cshtml.cs
  ! +P Z2
 8 F hh$ 2qq$ 2ww# 1*
@@ -39,7 +30,16 @@ _C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account
 áá 
 ãã  
 ||  }}  
-ÅÅ   
+ÅÅ  ö
+`C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Logout.cshtml.cs
+ ! ,Q \
+8 F   
+. 5  
+: G *
+^ d 
+
+) /
+7 @ !!% . 
 bC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Areas\Identity\Pages\Account\Register.cshtml.cs
  !!! .(( !8
 8 F.. 
@@ -573,7 +573,14 @@ SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\OsbbViewMode
 - 3 
 < @ 
 I O 
-X c &≠
+X c &Ñ
+^C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\TariffAndUserIdViewModel.cs
+
+ %
+
+ !
+
+ ≠
 WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\ProposalViewModel.cs
 
  
@@ -590,14 +597,7 @@ WC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\ProposalView
 
 
 
- Ñ
-^C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\TariffAndUserIdViewModel.cs
-
- %
-
- !
-
- ´
+ ´
 UC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\TariffViewModel.cs
 
  
@@ -663,13 +663,7 @@ dC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
   
   $ 
 - 8 !
-^ l '{
-KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
-
- 
- 7 @
-
- §
+^ l '§
 rC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewModels\PollWithCandidatesViewModel.cs
 
  (
@@ -689,7 +683,13 @@ hC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Entities\VotingViewMo
 
  
 
-" 8a
+" 8{
+KC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\ErrorViewModel.cs
+
+ 
+ 7 @
+
+ a
 SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfile.cs
 
 		 ‚
@@ -708,12 +708,12 @@ SC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Models\Mapping\MappingProfil
 MM PP 
 OO VV &WW %
 RR TT! &n
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
 
  
 
  n
-TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\OsbbHead\OsbbHead.cshtml.cs
+TC:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Web\Views\Resident\Resident.cshtml.cs
 
  
 

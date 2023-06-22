@@ -34,4 +34,10 @@ public class TariffService : ITariffService
         await _unitOfWork.TariffRepository.Update(tariff);
         await _unitOfWork.DoAsync();
     }
+    
+    public async Task Delete(Tariff tariff)
+    {
+        await _unitOfWork.TariffRepository.DeleteAsync(tariff);
+        await _unitOfWork.DoAsync();
+    }
 }

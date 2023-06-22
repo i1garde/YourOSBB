@@ -22,14 +22,14 @@
         </div>
         <div class="mb-3">
             <label asp-for="Tariff.Cost">Ціна</label>
-            <input asp-for="Tariff.Cost" class="form-control"/>
+            <input asp-for="Tariff.Cost" class="form-control" type="number" step="0.01"/>
         </div>
         <div class="mb-3">
             <select asp-for="UserId" asp-items="@ViewBag.UsersList"></select>
         </div>
         
         <button type="submit" class="btn btn-primary">Створити</button>
-        <a asp-controller="Tariff" asp-action="ShowTariffsToResidents" class="btn btn-secondary">
+        <a asp-controller="Tariff" asp-action="ShowTariffsToHead" class="btn btn-secondary">
             До витрат
         </a>
     </div>
