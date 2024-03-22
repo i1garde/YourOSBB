@@ -526,11 +526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
       "projectName": "YourOSBB.Entities",
-      "projectPath": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+      "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,25 @@
+﻿@model YourOSBB.Web.Models.Entities.NameRecordViewModel
+
+@{
+    Layout = "_ResidentLayout";
+}
+
+<div>
+    <p style="color: red;">ОСББ з даним ім'ям не існує. Будь ласка, пройдіть реєстраційну ще раз.</p>
+</div>
+<form method="post" asp-action="ConnectToOsbb" asp-controller="Resident">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Приєднатися до ОСББ</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name">Назва ОСББ</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Приєднатися</button>
+        <a asp-controller="Resident" asp-action="Resident" class="btn btn-secondary">
+            На головну
+        </a>
+    </div>
+</form>
