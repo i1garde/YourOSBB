@@ -10083,41 +10083,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vanya\\.nuget\\packages\\": {}
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.NUnitTests\\YourOSBB.NUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.NUnitTests\\YourOSBB.NUnitTests.csproj",
       "projectName": "YourOSBB.NUnitTests",
-      "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.NUnitTests\\YourOSBB.NUnitTests.csproj",
-      "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.NUnitTests\\obj\\",
+      "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.NUnitTests\\YourOSBB.NUnitTests.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.NUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
-              "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
+            "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
             },
-            "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj"
+            "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj"
             },
-            "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
-              "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj"
+            "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj"
             },
-            "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {
-              "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj"
+            "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj"
             }
           }
         }
@@ -10168,12 +10170,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

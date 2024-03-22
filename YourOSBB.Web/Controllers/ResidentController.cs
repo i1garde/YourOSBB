@@ -64,18 +64,26 @@ public class ResidentController : Controller
     public async Task<IActionResult> ConnectToOsbb(NameRecordViewModel osbbName)
     {
         var osbbT = await _osbbService.GetAll();
-        var osbb = osbbT.Where(x => x.Name == osbbName.Name).First();
+        var osbbFetch = osbbT.Where(x => x.Name == osbbName.Name);
 
-        var usr = await _userManager.GetUserAsync(HttpContext.User);
-        
-        osbb.Residents.Add(usr);
-        await _osbbService.Update(osbb);
+        if(osbbFetch.IsNullOrEmpty())
+        {
+            return RedirectToAction("OsbbNotExistError");
+        } else
+        {
+            var osbb = osbbFetch.First();
 
-        usr.OsbbId = osbb.OsbbId;
-        usr.Osbb = osbb;
-        await _userManager.UpdateAsync(usr);
-        
-        return RedirectToAction("Osbb");
+            var usr = await _userManager.GetUserAsync(HttpContext.User);
+
+            osbb.Residents.Add(usr);
+            await _osbbService.Update(osbb);
+
+            usr.OsbbId = osbb.OsbbId;
+            usr.Osbb = osbb;
+            await _userManager.UpdateAsync(usr);
+
+            return RedirectToAction("Osbb");
+        }
     }
     
     [Authorize(Roles = "Resident")]
@@ -91,5 +99,12 @@ public class ResidentController : Controller
         }
         return View(announcements
             .Select(x => _mapper.Map<Announcement, AnnouncementViewModel>(x)).ToList());
+    }
+
+    [Authorize(Roles = "Resident")]
+    [HttpGet]
+    public async Task<IActionResult> OsbbNotExistError()
+    {
+        return View();
     }
 }

@@ -521,24 +521,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vanya\\.nuget\\packages\\": {}
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
       "projectName": "YourOSBB.Entities",
-      "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
-      "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\obj\\",
+      "projectPath": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ivan\\Source\\Repos\\YourOSBB\\YourOSBB.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -573,12 +575,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

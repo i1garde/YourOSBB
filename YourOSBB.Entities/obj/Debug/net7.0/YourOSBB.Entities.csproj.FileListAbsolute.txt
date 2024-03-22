@@ -10,3 +10,16 @@ C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSB
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\refint\YourOSBB.Entities.dll
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.pdb
 C:\Users\vanya\RiderProjects\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\ref\YourOSBB.Entities.dll
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\bin\Debug\net7.0\YourOSBB.Entities.deps.json
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\bin\Debug\net7.0\YourOSBB.Entities.dll
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\bin\Debug\net7.0\YourOSBB.Entities.pdb
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.csproj.AssemblyReference.cache
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.AssemblyInfoInputs.cache
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.AssemblyInfo.cs
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.sourcelink.json
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.dll
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\refint\YourOSBB.Entities.dll
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\YourOSBB.Entities.pdb
+C:\Users\Ivan\source\repos\YourOSBB\YourOSBB.Entities\obj\Debug\net7.0\ref\YourOSBB.Entities.dll

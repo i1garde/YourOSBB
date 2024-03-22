@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {}
+    "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+    "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
         "projectName": "YourOSBB.Entities",
-        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
-        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,39 +56,55 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
+    "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
         "projectName": "YourOSBB.Infrastructure",
-        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
-                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
+              "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
               }
             }
           }
@@ -135,39 +153,55 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
+    "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj",
         "projectName": "YourOSBB.Services",
-        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj",
-        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\obj\\",
+        "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj"
+              "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Infrastructure\\YourOSBB.Infrastructure.csproj"
               }
             }
           }
@@ -192,42 +226,58 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {
+    "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
         "projectName": "YourOSBB.Web",
-        "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
-        "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Web\\obj\\",
+        "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\YourOSBB.Web.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
-                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
+              "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Entities\\YourOSBB.Entities.csproj"
               },
-              "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
-                "projectPath": "C:\\Users\\vanya\\RiderProjects\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj"
+              "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj": {
+                "projectPath": "C:\\Users\\Ivan\\source\\repos\\YourOSBB\\YourOSBB.Services\\YourOSBB.Services.csproj"
               }
             }
           }
@@ -284,6 +334,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -292,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
